@@ -17,7 +17,7 @@ class ButtonType1: UIButton{
     
     private func commonInit(){
         self.layer.cornerRadius = 12
-        self.backgroundColor = UIColor(named: "ButtonColor")
+        self.backgroundColor = UIColor(named: "ButtonColorBlueBack")
         
     }
     
