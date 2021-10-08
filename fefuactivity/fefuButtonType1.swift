@@ -17,7 +17,5 @@ class FEFUButtonType1: UIButton{
     private func commonInit(){
         self.layer.cornerRadius = 12
         self.backgroundColor = UIColor(named: "ButtonType1Color" )
-        self.frame.size = CGSize(width: 334.0, height: 56.0);
-        
     }
 }
