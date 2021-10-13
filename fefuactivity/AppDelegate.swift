@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  fefuactivity
+//  fitnes
 //
-//  Created by Andrew L on 04.10.2021.
+//  Created by wsr5 on 05.10.2021.
 //
 
 import UIKit
