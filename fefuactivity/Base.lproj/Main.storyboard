@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0zT-xx-m0g">
-    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -14,7 +14,7 @@
             <objects>
                 <navigationController id="0zT-xx-m0g" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EzW-vR-qab">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -30,30 +30,47 @@
             <objects>
                 <viewController id="Zyu-Rp-ZBT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lw5-BR-hl7">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_image" translatesAutoresizingMaskIntoConstraints="NO" id="dkc-am-mwt">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="440.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="210"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dkc-am-mwt" secondAttribute="height" multiplier="138:70" id="beC-7o-YNe"/>
+                                </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoSplash" translatesAutoresizingMaskIntoConstraints="NO" id="HYF-HZ-KQz">
+                                <rect key="frame" x="176.66666666666666" y="229.99999999999997" width="61" height="70.666666666666657"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ACTIVITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIu-bU-6VW" customClass="Fefu_custom_label" customModule="fefuactivity">
+                                <rect key="frame" x="186" y="438" width="73" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fKg-x6-IfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dkc-am-mwt" firstAttribute="trailing" secondItem="fKg-x6-IfV" secondAttribute="trailing" id="3tD-4O-tGB"/>
-                            <constraint firstItem="dkc-am-mwt" firstAttribute="leading" secondItem="fKg-x6-IfV" secondAttribute="leading" id="ELm-ny-iCe"/>
-                            <constraint firstItem="dkc-am-mwt" firstAttribute="top" secondItem="Lw5-BR-hl7" secondAttribute="top" id="qp7-cm-S6G"/>
-                            <constraint firstItem="fKg-x6-IfV" firstAttribute="bottom" secondItem="dkc-am-mwt" secondAttribute="bottom" multiplier="3.1" id="tIZ-OP-e6m"/>
+                            <constraint firstItem="HYF-HZ-KQz" firstAttribute="height" secondItem="Lw5-BR-hl7" secondAttribute="height" multiplier="0.078869" id="0Ti-e1-gn3"/>
+                            <constraint firstItem="dkc-am-mwt" firstAttribute="centerX" secondItem="fKg-x6-IfV" secondAttribute="centerX" id="1lA-Pr-qJZ"/>
+                            <constraint firstItem="HYF-HZ-KQz" firstAttribute="centerX" secondItem="fKg-x6-IfV" secondAttribute="centerX" id="FpH-Aa-mSW"/>
+                            <constraint firstItem="HYF-HZ-KQz" firstAttribute="width" secondItem="Lw5-BR-hl7" secondAttribute="width" multiplier="0.147343" id="GNo-gn-BsC"/>
+                            <constraint firstItem="HYF-HZ-KQz" firstAttribute="top" secondItem="dkc-am-mwt" secondAttribute="bottom" constant="20" id="Kx1-lN-PSS"/>
+                            <constraint firstItem="dkc-am-mwt" firstAttribute="top" secondItem="Lw5-BR-hl7" secondAttribute="top" id="lJr-Du-EpQ"/>
+                            <constraint firstItem="dkc-am-mwt" firstAttribute="width" secondItem="Lw5-BR-hl7" secondAttribute="width" id="x5C-mS-9v6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TG4-Jp-Rhk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hnu-HU-DCR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="686.25" y="-26.25"/>
+            <point key="canvasLocation" x="685.50724637681162" y="-26.785714285714285"/>
         </scene>
     </scenes>
     <resources>
+        <image name="LogoSplash" width="61" height="71"/>
         <image name="top_image" width="414" height="267"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
