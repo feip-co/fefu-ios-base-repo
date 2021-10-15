@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0zT-xx-m0g">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -14,7 +14,7 @@
             <objects>
                 <navigationController id="0zT-xx-m0g" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EzW-vR-qab">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -30,30 +30,27 @@
             <objects>
                 <viewController id="Zyu-Rp-ZBT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lw5-BR-hl7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_image" translatesAutoresizingMaskIntoConstraints="NO" id="SJG-pg-4ga">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="184.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="SJG-pg-4ga" secondAttribute="height" multiplier="130:75" id="ogL-S8-vl2"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_image" translatesAutoresizingMaskIntoConstraints="NO" id="dkc-am-mwt">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="440.5"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fKg-x6-IfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="SJG-pg-4ga" firstAttribute="leading" secondItem="fKg-x6-IfV" secondAttribute="leading" id="3pJ-S1-wh2"/>
-                            <constraint firstItem="SJG-pg-4ga" firstAttribute="trailing" secondItem="fKg-x6-IfV" secondAttribute="trailing" id="66F-74-cXw"/>
-                            <constraint firstItem="SJG-pg-4ga" firstAttribute="top" secondItem="Lw5-BR-hl7" secondAttribute="top" id="L5d-5l-w42"/>
-                            <constraint firstItem="SJG-pg-4ga" firstAttribute="leading" secondItem="fKg-x6-IfV" secondAttribute="leading" id="ZEW-k5-ZEB"/>
+                            <constraint firstItem="dkc-am-mwt" firstAttribute="trailing" secondItem="fKg-x6-IfV" secondAttribute="trailing" id="3tD-4O-tGB"/>
+                            <constraint firstItem="dkc-am-mwt" firstAttribute="leading" secondItem="fKg-x6-IfV" secondAttribute="leading" id="ELm-ny-iCe"/>
+                            <constraint firstItem="dkc-am-mwt" firstAttribute="top" secondItem="Lw5-BR-hl7" secondAttribute="top" id="qp7-cm-S6G"/>
+                            <constraint firstItem="fKg-x6-IfV" firstAttribute="bottom" secondItem="dkc-am-mwt" secondAttribute="bottom" multiplier="3.1" id="tIZ-OP-e6m"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TG4-Jp-Rhk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hnu-HU-DCR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="686.91588785046724" y="-25.269978401727865"/>
+            <point key="canvasLocation" x="686.25" y="-26.25"/>
         </scene>
     </scenes>
     <resources>
