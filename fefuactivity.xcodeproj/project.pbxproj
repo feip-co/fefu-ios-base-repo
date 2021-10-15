@@ -13,6 +13,7 @@
 		1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CA270A5CCE004A30CA /* Main.storyboard */; };
 		1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */; };
 		1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */; };
+		632C6DD3271803DD00103394 /* Circe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 632C6DD2271803DD00103394 /* Circe-Regular.ttf */; };
 		63AE863E270E95D5007862D6 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE863C270E95D5007862D6 /* RegistrationController.swift */; };
 		63AE863F270E95D5007862D6 /* RegistrationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63AE863D270E95D5007862D6 /* RegistrationController.xib */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE4E5D0270A5CD0004A30CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE4E5D2270A5CD0004A30CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632C6DD2271803DD00103394 /* Circe-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Circe-Regular.ttf"; path = "../../../../Downloads/Circe/Circe-Regular.ttf"; sourceTree = "<group>"; };
 		63AE863C270E95D5007862D6 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		63AE863D270E95D5007862D6 /* RegistrationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,11 +66,12 @@
 				1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */,
 				1DE4E5C8270A5CCE004A30CA /* ViewController.swift */,
 				1DE4E5CA270A5CCE004A30CA /* Main.storyboard */,
-				1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */,
 				1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */,
+				1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */,
 				1DE4E5D2270A5CD0004A30CA /* Info.plist */,
 				63AE863C270E95D5007862D6 /* RegistrationController.swift */,
 				63AE863D270E95D5007862D6 /* RegistrationController.xib */,
+				632C6DD2271803DD00103394 /* Circe-Regular.ttf */,
 			);
 			path = fefuactivity;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
 				63AE863F270E95D5007862D6 /* RegistrationController.xib in Resources */,
+				632C6DD3271803DD00103394 /* Circe-Regular.ttf in Resources */,
 				1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
