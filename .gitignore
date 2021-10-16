@@ -103,6 +103,4 @@ AppIcon-Dev.appiconset
 vendor
 fastlane/lintResults.html
 
-Tokyo.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-
 Gemfile.lock
