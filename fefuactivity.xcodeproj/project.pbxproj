@@ -16,6 +16,8 @@
 		2C01746127198F5500154C57 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C01746027198F5500154C57 /* SF-Pro-Display-Regular.otf */; };
 		2C017463271991B100154C57 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C017462271991B100154C57 /* SF-Pro-Display-Bold.otf */; };
 		2C4A210D2719B1E900AE6331 /* fefu_button_type_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A210C2719B1E900AE6331 /* fefu_button_type_1.swift */; };
+		2CC209C2271AAA6900D5453C /* fefu_text_field_type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC209C1271AAA6900D5453C /* fefu_text_field_type1.swift */; };
+		2CC209C4271AB8E200D5453C /* custom_navigation_item_type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC209C3271AB8E200D5453C /* custom_navigation_item_type1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		2C01746027198F5500154C57 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		2C017462271991B100154C57 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Bold.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		2C4A210C2719B1E900AE6331 /* fefu_button_type_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fefu_button_type_1.swift; sourceTree = "<group>"; };
+		2CC209C1271AAA6900D5453C /* fefu_text_field_type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fefu_text_field_type1.swift; sourceTree = "<group>"; };
+		2CC209C3271AB8E200D5453C /* custom_navigation_item_type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_navigation_item_type1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				2C01746027198F5500154C57 /* SF-Pro-Display-Regular.otf */,
 				2C017462271991B100154C57 /* SF-Pro-Display-Bold.otf */,
 				2C4A210C2719B1E900AE6331 /* fefu_button_type_1.swift */,
+				2CC209C1271AAA6900D5453C /* fefu_text_field_type1.swift */,
+				2CC209C3271AB8E200D5453C /* custom_navigation_item_type1.swift */,
 			);
 			path = fefuactivity;
 			sourceTree = "<group>";
@@ -148,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC209C2271AAA6900D5453C /* fefu_text_field_type1.swift in Sources */,
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
 				2C4A210D2719B1E900AE6331 /* fefu_button_type_1.swift in Sources */,
+				2CC209C4271AB8E200D5453C /* custom_navigation_item_type1.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
 			);
