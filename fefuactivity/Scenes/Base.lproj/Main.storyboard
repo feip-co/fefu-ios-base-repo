@@ -122,6 +122,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TG4-Jp-Rhk"/>
+                    <connections>
+                        <outlet property="loginButtonTap" destination="zI3-0O-s2o" id="NTa-ee-YBa"/>
+                        <outlet property="registrationButton" destination="yYZ-2U-dg5" id="UPI-1u-FIz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hnu-HU-DCR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
