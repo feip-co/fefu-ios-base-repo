@@ -18,4 +18,5 @@ class ViewController: UIViewController {
         let logView = LoginController(nibName: "LoginController", bundle: nil)
         navigationController?.pushViewController(logView, animated: true)
     }
+    
 }
