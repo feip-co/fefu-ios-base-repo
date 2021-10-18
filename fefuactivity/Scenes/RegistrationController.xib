@@ -15,7 +15,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationController" customModule="fefuactivity" customModuleProvider="target">
             <connections>
-                <outlet property="genderPicker" destination="qKo-jf-Rh1" id="Ov3-Te-QKU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
