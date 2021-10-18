@@ -33,6 +33,7 @@
                     <fontDescription key="fontDescription" name="Circe-Regular" family="Circe" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
+                    <string key="userLabel">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
                 </label>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greyActivity" translatesAutoresizingMaskIntoConstraints="NO" id="z7M-Pr-PTR">
                     <rect key="frame" x="175" y="809" width="65" height="42"/>
