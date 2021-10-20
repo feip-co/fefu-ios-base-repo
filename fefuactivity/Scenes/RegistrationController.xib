@@ -15,6 +15,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationController" customModule="fefuactivity" customModuleProvider="target">
             <connections>
+                <outlet property="genderField" destination="qKo-jf-Rh1" id="Tq5-2h-Gvf"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -43,8 +44,13 @@
                     <rect key="frame" x="0.0" y="163" width="414" height="486"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XlU-bv-Sn4">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="486"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
                         <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Логин" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VLn-T4-T5U" userLabel="login" customClass="registrationTextField" customModule="fefuactivity" customModuleProvider="target">
-                            <rect key="frame" x="20" y="8" width="374" height="55"/>
+                            <rect key="frame" x="19" y="8" width="375" height="55"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="Circe-Regular" family="Circe" pointSize="18"/>
                             <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="username"/>
@@ -55,31 +61,31 @@
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Пароль" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s4z-EH-orJ" userLabel="password" customClass="passwordTextField" customModule="fefuactivity" customModuleProvider="target">
-                            <rect key="frame" x="20" y="89" width="374" height="55"/>
+                            <rect key="frame" x="19" y="89" width="375" height="55"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="Circe-Regular" family="Circe" pointSize="18"/>
                             <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Повторите пароль" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4c3-Jf-uiT" userLabel="confirm" customClass="passwordTextField" customModule="fefuactivity" customModuleProvider="target">
-                            <rect key="frame" x="20" y="174" width="374" height="55"/>
+                            <rect key="frame" x="19" y="174" width="375" height="55"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="Circe-Regular" family="Circe" pointSize="18"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Пол" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qKo-jf-Rh1" userLabel="sex" customClass="registrationTextField" customModule="fefuactivity" customModuleProvider="target">
-                            <rect key="frame" x="20" y="339" width="374" height="55"/>
+                            <rect key="frame" x="19" y="339" width="375" height="55"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="Circe-Regular" family="Circe" pointSize="18"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Имя или никнейм" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wBJ-Fs-na9" userLabel="name" customClass="registrationTextField" customModule="fefuactivity" customModuleProvider="target">
-                            <rect key="frame" x="20" y="256" width="374" height="55"/>
+                            <rect key="frame" x="19" y="256" width="375" height="55"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="Circe-Regular" family="Circe" pointSize="18"/>
                             <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="nickname"/>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="gb3-5T-95H">
-                            <rect key="frame" x="33" y="428" width="348" height="58"/>
+                            <rect key="frame" x="33" y="428" width="347" height="58"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.29411764709999999" green="0.035294117649999998" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <fontDescription key="fontDescription" name="Circe-Regular" family="Circe" pointSize="16"/>

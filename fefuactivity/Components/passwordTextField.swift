@@ -25,7 +25,7 @@ class passwordTextField: registrationTextField {
 
     func enablePasswordToggle() {
         
-        self.isSecureTextEntry = true
+        self.isSecureTextEntry = false
         
         button.setImage(UIImage(named: "eye"), for: .normal)
         button.setImage(UIImage(named: "closedEye"), for: .selected)
@@ -36,6 +36,9 @@ class passwordTextField: registrationTextField {
         
         
         button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 50)
+        
+        button.frame = CGRect(x: button.frame.origin.x, y: button.frame.origin.y, width: button.frame.width, height: 30)
+        
         button.addTarget(self, action: #selector(togglePasswordView), for: .touchUpInside)
     }
     
