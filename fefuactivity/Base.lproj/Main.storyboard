@@ -131,36 +131,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вход" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000149011612" translatesAutoresizingMaskIntoConstraints="NO" id="Rvw-yI-h1F">
-                                <rect key="frame" x="20" y="88" width="374" height="38.666666666666657"/>
+                                <rect key="frame" x="20" y="88" width="374" height="37.333333333333343"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Login" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S1u-ob-y3z" customClass="Fefu_text_field_type_1" customModule="fefuactivity">
-                                <rect key="frame" x="17" y="150.66666666666666" width="380" height="52.666666666666657"/>
+                                <rect key="frame" x="17" y="149.33333333333334" width="380" height="52.666666666666657"/>
                                 <color key="textColor" name="text_field_color_type_1"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Пароль" borderStyle="roundedRect" minimumFontSize="17" background="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ahG-0O-4tr" customClass="Fefu_text_field_type_1" customModule="fefuactivity">
-                                <rect key="frame" x="17" y="223.33333333333334" width="380" height="52.666666666666657"/>
+                                <rect key="frame" x="17" y="222" width="380" height="52.666666666666686"/>
                                 <color key="textColor" name="text_field_color_type_1"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPU-9d-aKV">
-                                <rect key="frame" x="368" y="238.66666666666666" width="26" height="21.999999999999972"/>
+                                <rect key="frame" x="368" y="237.33333333333334" width="26" height="22.000000000000028"/>
                                 <color key="tintColor" name="text_field_color_type_1"/>
                                 <state key="normal" image="eye" catalog="system"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKx-0P-ihi" customClass="FEFUButtonType1" customModule="fefuactivity">
-                                <rect key="frame" x="40" y="356" width="334" height="56"/>
+                                <rect key="frame" x="40" y="354.66666666666669" width="334" height="56"/>
                                 <state key="normal" title="Продолжить">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bicycles" translatesAutoresizingMaskIntoConstraints="NO" id="8Um-bA-5k8">
-                                <rect key="frame" x="0.0" y="482" width="414" height="380"/>
+                                <rect key="frame" x="0.0" y="480.66666666666674" width="414" height="381.33333333333326"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jjD-26-44u"/>
@@ -204,70 +204,70 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Регистрация" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="lpV-wK-A7r">
-                                <rect key="frame" x="20" y="88" width="374" height="38.666666666666657"/>
+                                <rect key="frame" x="20" y="88" width="374" height="37.333333333333343"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Login" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2L9-Il-mjP" customClass="Fefu_text_field_type_1" customModule="fefuactivity">
-                                <rect key="frame" x="17" y="152.66666666666666" width="380" height="52.333333333333343"/>
+                                <rect key="frame" x="17" y="151.33333333333334" width="380" height="52.666666666666657"/>
                                 <color key="textColor" name="text_field_color_type_1"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Имя или никнейм" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="suc-hB-FVS" customClass="Fefu_text_field_type_1" customModule="fefuactivity">
-                                <rect key="frame" x="17" y="370.33333333333331" width="380" height="52.666666666666686"/>
+                                <rect key="frame" x="17" y="369" width="380" height="52.666666666666686"/>
                                 <color key="textColor" name="text_field_color_type_1"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Пароль" borderStyle="roundedRect" minimumFontSize="17" background="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fg8-yR-LHj" customClass="Fefu_text_field_type_1" customModule="fefuactivity">
-                                <rect key="frame" x="17" y="225" width="380" height="52.666666666666686"/>
+                                <rect key="frame" x="17" y="224" width="380" height="52.666666666666686"/>
                                 <color key="textColor" name="text_field_color_type_1"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7R4-YY-mUf">
-                                <rect key="frame" x="365" y="240.33333333333334" width="26" height="22.000000000000028"/>
+                                <rect key="frame" x="365" y="239.33333333333334" width="26" height="22.000000000000028"/>
                                 <color key="tintColor" name="text_field_color_type_1"/>
                                 <state key="normal" image="eye" catalog="system"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Повторите пароль" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O16-vq-WaD" customClass="Fefu_text_field_type_1" customModule="fefuactivity">
-                                <rect key="frame" x="17" y="297.66666666666669" width="380" height="52.666666666666686"/>
+                                <rect key="frame" x="17" y="296.66666666666669" width="380" height="52.666666666666686"/>
                                 <color key="textColor" name="text_field_color_type_1"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFn-9K-V21">
-                                <rect key="frame" x="365" y="313" width="26" height="22"/>
+                                <rect key="frame" x="365" y="312" width="26" height="22"/>
                                 <color key="tintColor" name="text_field_color_type_1"/>
                                 <state key="normal" image="eye" catalog="system"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Пол" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rRP-1a-Xs8" customClass="Fefu_text_field_type_1" customModule="fefuactivity">
-                                <rect key="frame" x="17" y="443" width="380" height="52.666666666666686"/>
+                                <rect key="frame" x="17" y="441.66666666666669" width="380" height="52.666666666666686"/>
                                 <color key="textColor" name="text_field_color_type_1"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DnK-aD-pGX" customClass="FEFUButtonType1" customModule="fefuactivity">
-                                <rect key="frame" x="40" y="520.66666666666663" width="334" height="56"/>
+                                <rect key="frame" x="40" y="519.33333333333337" width="334" height="56"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="13"/>
                                 <state key="normal" title="Продолжить">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NVw-Ch-tdr">
-                                <rect key="frame" x="17" y="584" width="380" height="69.333333333333371"/>
+                                <rect key="frame" x="17" y="583" width="380" height="69.333333333333371"/>
                                 <string key="text">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="activity_label" translatesAutoresizingMaskIntoConstraints="NO" id="8Yk-KA-T5E">
-                                <rect key="frame" x="175.66666666666666" y="673.33333333333337" width="62.666666666666657" height="11"/>
+                                <rect key="frame" x="175.66666666666666" y="672.33333333333337" width="62.666666666666657" height="11"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no-color-logo" translatesAutoresizingMaskIntoConstraints="NO" id="7mX-9X-05G">
-                                <rect key="frame" x="197" y="691.66666666666663" width="20" height="22.666666666666629"/>
+                                <rect key="frame" x="197" y="690.66666666666663" width="20" height="22.333333333333371"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Cs-g4-ykJ"/>
@@ -321,7 +321,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfy-UJ-QHn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1574.2990654205607" y="-182.72138228941685"/>
+            <point key="canvasLocation" x="1574" y="-247"/>
         </scene>
     </scenes>
     <resources>
