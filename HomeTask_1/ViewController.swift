@@ -22,7 +22,10 @@ class ViewController1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+       
+        
     }
+    
 
 }
 
@@ -34,6 +37,20 @@ class ViewController2: UIViewController {
 
     }
     
+}
+
+
+class CustomTextField: UITextField {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+
+        layer.cornerRadius = 6.62
+        layer.borderColor = UIColor(red: 0.58, green: 0.639, blue: 0.722, alpha: 1).cgColor
+        layer.borderWidth = 1.1
+        
+
+    }
 }
 
 
