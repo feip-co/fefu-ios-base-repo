@@ -28,21 +28,100 @@
         <!--View Controller-->
         <scene sceneID="9kP-vf-KjW">
             <objects>
-                <viewController id="Zyu-Rp-ZBT" sceneMemberID="viewController">
+                <viewController id="Zyu-Rp-ZBT" customClass="ViewController" customModule="fefuactivity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lw5-BR-hl7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uck-pE-SDg">
+                                <rect key="frame" x="125.5" y="794.5" width="163" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="5HN-m2-qMp"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Уже есть аккаунт?">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="0.29411764709999999" green="0.035294117649999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapLoginButton:" destination="Zyu-Rp-ZBT" eventType="touchUpInside" id="rkE-hM-lQR"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BgImage" id="qO2-sN-tas">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="267"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Db4-KE-9pE">
+                                <rect key="frame" x="152" y="308.5" width="110" height="107"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пожалуй лучший фитнес трекер в ДВФУ" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dW9-ho-M6B">
+                                <rect key="frame" x="30" y="495" width="354" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="Xn4-8C-YG5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PTSans-Caption" family="PT Sans Caption" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="0.12156862745098039" green="0.12156862745098039" blue="0.12156862745098039" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbB-ix-FIT">
+                                <rect key="frame" x="40" y="583.5" width="334" height="38.5"/>
+                                <string key="text">Созданный студентами 
+2-ого курса</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.46274509803921571" green="0.46274509803921571" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8j-0t-0kS" customClass="BaseButton" customModule="fefuactivity" customModuleProvider="target">
+                                <rect key="frame" x="40" y="706.5" width="334" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="334" id="Gmn-S6-eAT"/>
+                                    <constraint firstAttribute="height" constant="56" id="Z2b-Aw-qVR"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Зарегистрироваться">
+                                    <backgroundConfiguration key="background" cornerRadius="12">
+                                        <color key="backgroundColor" red="0.29411764709999999" green="0.035294117649999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapRegistrationButton:" destination="Zyu-Rp-ZBT" eventType="touchUpInside" id="Cyw-YK-Uxr"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="fKg-x6-IfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f8j-0t-0kS" firstAttribute="top" secondItem="fbB-ix-FIT" secondAttribute="bottom" constant="84.829999999999998" id="1Sm-hY-1Xr"/>
+                            <constraint firstItem="qO2-sN-tas" firstAttribute="centerX" secondItem="Lw5-BR-hl7" secondAttribute="centerX" id="3uh-wP-FLL"/>
+                            <constraint firstItem="fKg-x6-IfV" firstAttribute="trailing" secondItem="fbB-ix-FIT" secondAttribute="trailing" constant="40" id="7oK-8L-TGi"/>
+                            <constraint firstItem="fbB-ix-FIT" firstAttribute="top" secondItem="dW9-ho-M6B" secondAttribute="bottom" constant="13.17" id="CSh-eE-mhH"/>
+                            <constraint firstItem="qO2-sN-tas" firstAttribute="top" secondItem="Lw5-BR-hl7" secondAttribute="top" id="J80-HY-9yu"/>
+                            <constraint firstItem="dW9-ho-M6B" firstAttribute="leading" secondItem="fKg-x6-IfV" secondAttribute="leading" constant="30" id="LSA-BE-GeE"/>
+                            <constraint firstItem="fKg-x6-IfV" firstAttribute="trailing" secondItem="dW9-ho-M6B" secondAttribute="trailing" constant="30" id="Nn3-4M-voh"/>
+                            <constraint firstItem="uck-pE-SDg" firstAttribute="top" secondItem="f8j-0t-0kS" secondAttribute="bottom" constant="32" id="OCn-eK-6cJ"/>
+                            <constraint firstItem="fbB-ix-FIT" firstAttribute="centerX" secondItem="Lw5-BR-hl7" secondAttribute="centerX" id="Qyg-sU-kWE"/>
+                            <constraint firstItem="uck-pE-SDg" firstAttribute="centerX" secondItem="Lw5-BR-hl7" secondAttribute="centerX" id="UW9-iI-3i6"/>
+                            <constraint firstItem="Db4-KE-9pE" firstAttribute="top" secondItem="qO2-sN-tas" secondAttribute="bottom" constant="41.700000000000003" id="VXh-ey-fBX"/>
+                            <constraint firstItem="fKg-x6-IfV" firstAttribute="trailing" secondItem="f8j-0t-0kS" secondAttribute="trailing" constant="40" id="XQK-xt-nN9"/>
+                            <constraint firstItem="fbB-ix-FIT" firstAttribute="leading" secondItem="fKg-x6-IfV" secondAttribute="leading" constant="40" id="Y12-cD-1LN"/>
+                            <constraint firstItem="dW9-ho-M6B" firstAttribute="top" secondItem="Db4-KE-9pE" secondAttribute="bottom" constant="79.510000000000005" id="ZdP-eX-bfm"/>
+                            <constraint firstItem="Db4-KE-9pE" firstAttribute="centerX" secondItem="Lw5-BR-hl7" secondAttribute="centerX" id="dzo-95-OLd"/>
+                            <constraint firstItem="f8j-0t-0kS" firstAttribute="leading" secondItem="fKg-x6-IfV" secondAttribute="leading" constant="40" id="lmF-rv-pQu"/>
+                            <constraint firstItem="f8j-0t-0kS" firstAttribute="centerX" secondItem="Lw5-BR-hl7" secondAttribute="centerX" id="qCE-kI-DAa"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TG4-Jp-Rhk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hnu-HU-DCR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="687" y="-25"/>
+            <point key="canvasLocation" x="686.95652173913049" y="-25.446428571428569"/>
         </scene>
     </scenes>
     <resources>
+        <image name="BgImage" width="414" height="267"/>
+        <image name="Image" width="110" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

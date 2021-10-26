@@ -13,6 +13,11 @@
 		1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CA270A5CCE004A30CA /* Main.storyboard */; };
 		1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */; };
 		1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */; };
+		4C3A308927225FA300A5EFF0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A308727225FA300A5EFF0 /* RegistrationViewController.swift */; };
+		4C3A308A27225FA300A5EFF0 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A308827225FA300A5EFF0 /* RegistrationViewController.xib */; };
+		4C3A308D27225FB800A5EFF0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A308B27225FB800A5EFF0 /* LoginViewController.swift */; };
+		4C3A308E27225FB800A5EFF0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A308C27225FB800A5EFF0 /* LoginViewController.xib */; };
+		4C67814F2724232300EC30F6 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67814E2724232300EC30F6 /* BaseButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE4E5D0270A5CD0004A30CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE4E5D2270A5CD0004A30CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3A308727225FA300A5EFF0 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		4C3A308827225FA300A5EFF0 /* RegistrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		4C3A308B27225FB800A5EFF0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4C3A308C27225FB800A5EFF0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4C67814E2724232300EC30F6 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		1DE4E5C3270A5CCE004A30CA /* fefuactivity */ = {
 			isa = PBXGroup;
 			children = (
+				4C67814D2724230900EC30F6 /* Buttons */,
+				4C67814C27240DA000EC30F6 /* Controllers */,
 				1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */,
 				1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */,
 				1DE4E5C8270A5CCE004A30CA /* ViewController.swift */,
@@ -65,6 +77,41 @@
 				1DE4E5D2270A5CD0004A30CA /* Info.plist */,
 			);
 			path = fefuactivity;
+			sourceTree = "<group>";
+		};
+		4C3A308527225F3B00A5EFF0 /* RegistrationController */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A308727225FA300A5EFF0 /* RegistrationViewController.swift */,
+				4C3A308827225FA300A5EFF0 /* RegistrationViewController.xib */,
+			);
+			path = RegistrationController;
+			sourceTree = "<group>";
+		};
+		4C3A308627225F5600A5EFF0 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A308B27225FB800A5EFF0 /* LoginViewController.swift */,
+				4C3A308C27225FB800A5EFF0 /* LoginViewController.xib */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		4C67814C27240DA000EC30F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A308627225F5600A5EFF0 /* LoginController */,
+				4C3A308527225F3B00A5EFF0 /* RegistrationController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C67814D2724230900EC30F6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4C67814E2724232300EC30F6 /* BaseButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +171,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3A308E27225FB800A5EFF0 /* LoginViewController.xib in Resources */,
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
+				4C3A308A27225FA300A5EFF0 /* RegistrationViewController.xib in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
 				1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */,
 			);
@@ -139,6 +188,9 @@
 			files = (
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
+				4C3A308927225FA300A5EFF0 /* RegistrationViewController.swift in Sources */,
+				4C67814F2724232300EC30F6 /* BaseButton.swift in Sources */,
+				4C3A308D27225FB800A5EFF0 /* LoginViewController.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
