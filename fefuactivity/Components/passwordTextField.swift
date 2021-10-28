@@ -34,10 +34,7 @@ class passwordTextField: registrationTextField {
         button.alpha = 1
         textContentType = .oneTimeCode
         
-        
-        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 50)
-        
-        button.frame = CGRect(x: button.frame.origin.x, y: button.frame.origin.y, width: button.frame.width, height: 30)
+        button.contentEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 20)
         
         button.addTarget(self, action: #selector(togglePasswordView), for: .touchUpInside)
     }
