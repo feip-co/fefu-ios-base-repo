@@ -8,13 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var textView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        textView.backgroundColor = .red
+        //self.tableView.delegate = self
+        //self.tableView.dataSource = self
     }
 
     
     
 }
 
+//extension ViewController: UITableViewDelegate, UITableViewDataSource{
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return 2
+//}
+    
+ //   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+ //       return UITableViewCell()
+ //   }
+    
+    
+//}
