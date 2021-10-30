@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivitiesController" customModule="fefuactivity" customModuleProvider="target">
+            <connections>
+                <outlet property="startButton" destination="4Gc-EK-PQB" id="3aE-uU-n3U"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Время потренить" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6n-UC-E76">
+                    <rect key="frame" x="133" y="411.5" width="148" height="20.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oz-xB-HLE">
+                    <rect key="frame" x="63.5" y="453" width="287.5" height="38.5"/>
+                    <string key="text">Нажимай на кнопку ниже и начинаем
+трекать активность</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lcx-dq-UuW">
+                    <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="0MX-cs-apn"/>
+                    </constraints>
+                    <items>
+                        <tabBarItem title="Активности" image="circle" catalog="system" id="v7q-dI-2B1"/>
+                        <tabBarItem title="Профиль" image="circle" catalog="system" id="zOk-mf-e8N">
+                            <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                        </tabBarItem>
+                    </items>
+                </tabBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gc-EK-PQB">
+                    <rect key="frame" x="51.5" y="738" width="311" height="55"/>
+                    <color key="backgroundColor" red="0.080289937559999996" green="0.46022140979999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="311" id="LBC-Fq-vlk"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="OiD-Rt-nI2"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="cun-Md-TVo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <state key="normal" title="Старт">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="w6n-UC-E76" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AMN-sS-7N9"/>
+                <constraint firstItem="lcx-dq-UuW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="EzA-Y3-vrz"/>
+                <constraint firstItem="lcx-dq-UuW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MEr-fl-fmT"/>
+                <constraint firstItem="4Gc-EK-PQB" firstAttribute="centerX" secondItem="lcx-dq-UuW" secondAttribute="centerX" id="UQg-Lo-ZBY"/>
+                <constraint firstItem="lcx-dq-UuW" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="WZm-9W-ICt"/>
+                <constraint firstItem="w6n-UC-E76" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="367.5" id="fEW-Ch-CcC"/>
+                <constraint firstItem="lcx-dq-UuW" firstAttribute="top" secondItem="4Gc-EK-PQB" secondAttribute="bottom" constant="20" id="h8V-qh-aRK"/>
+                <constraint firstItem="3Oz-xB-HLE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hw5-01-m4n"/>
+                <constraint firstItem="3Oz-xB-HLE" firstAttribute="top" secondItem="w6n-UC-E76" secondAttribute="bottom" constant="21" id="vOy-eq-uHn"/>
+            </constraints>
+            <point key="canvasLocation" x="57" y="51"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
