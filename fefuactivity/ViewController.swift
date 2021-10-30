@@ -11,6 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.backButtonTitle = ""
     }
     
     @IBAction func didTapRegistrationButton(_ sender: Any) {

@@ -18,6 +18,9 @@
 		4C3A308D27225FB800A5EFF0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A308B27225FB800A5EFF0 /* LoginViewController.swift */; };
 		4C3A308E27225FB800A5EFF0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A308C27225FB800A5EFF0 /* LoginViewController.xib */; };
 		4C67814F2724232300EC30F6 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67814E2724232300EC30F6 /* BaseButton.swift */; };
+		4CD12114272BE4C7002ACB4C /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD12113272BE4C7002ACB4C /* PasswordTextField.swift */; };
+		4CD12116272D0A59002ACB4C /* PopUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD12115272D0A58002ACB4C /* PopUpTextField.swift */; };
+		4CD5D2BD272AD13700379DC1 /* SignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5D2BC272AD13700379DC1 /* SignTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		4C3A308B27225FB800A5EFF0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4C3A308C27225FB800A5EFF0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		4C67814E2724232300EC30F6 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		4CD12113272BE4C7002ACB4C /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		4CD12115272D0A58002ACB4C /* PopUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpTextField.swift; sourceTree = "<group>"; };
+		4CD5D2BC272AD13700379DC1 /* SignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		1DE4E5C3270A5CCE004A30CA /* fefuactivity */ = {
 			isa = PBXGroup;
 			children = (
+				4CD5D2BB272AD0FD00379DC1 /* TextFields */,
 				4C67814D2724230900EC30F6 /* Buttons */,
 				4C67814C27240DA000EC30F6 /* Controllers */,
 				1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */,
@@ -91,8 +98,8 @@
 		4C3A308627225F5600A5EFF0 /* LoginController */ = {
 			isa = PBXGroup;
 			children = (
-				4C3A308B27225FB800A5EFF0 /* LoginViewController.swift */,
 				4C3A308C27225FB800A5EFF0 /* LoginViewController.xib */,
+				4C3A308B27225FB800A5EFF0 /* LoginViewController.swift */,
 			);
 			path = LoginController;
 			sourceTree = "<group>";
@@ -112,6 +119,16 @@
 				4C67814E2724232300EC30F6 /* BaseButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4CD5D2BB272AD0FD00379DC1 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5D2BC272AD13700379DC1 /* SignTextField.swift */,
+				4CD12113272BE4C7002ACB4C /* PasswordTextField.swift */,
+				4CD12115272D0A58002ACB4C /* PopUpTextField.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,11 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD5D2BD272AD13700379DC1 /* SignTextField.swift in Sources */,
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
 				4C3A308927225FA300A5EFF0 /* RegistrationViewController.swift in Sources */,
 				4C67814F2724232300EC30F6 /* BaseButton.swift in Sources */,
 				4C3A308D27225FB800A5EFF0 /* LoginViewController.swift in Sources */,
+				4CD12114272BE4C7002ACB4C /* PasswordTextField.swift in Sources */,
+				4CD12116272D0A59002ACB4C /* PopUpTextField.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

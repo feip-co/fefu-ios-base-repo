@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationViewController" customModule="fefuactivity" customModuleProvider="target">
             <connections>
+                <outlet property="genderTextField" destination="cPJ-u2-aMF" id="vtF-A6-jCx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,12 +19,114 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="IGe-hh-8Lx">
+                    <rect key="frame" x="17.5" y="123.5" width="379" height="345"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Логин" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zj2-lb-J6c" customClass="SignTextField" customModule="fefuactivity" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="379" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="379" id="Bqi-e7-L5K"/>
+                                <constraint firstAttribute="height" constant="53" id="dsw-TA-GJc"/>
+                            </constraints>
+                            <attributedString key="attributedText"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Пароль" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VER-Nq-uPA" customClass="PasswordTextField" customModule="fefuactivity" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="73" width="379" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="53" id="Okc-u7-btK"/>
+                                <constraint firstAttribute="width" constant="379" id="dba-fO-HLr"/>
+                            </constraints>
+                            <attributedString key="attributedText"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Повторите пароль" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AqK-7U-2bh" customClass="PasswordTextField" customModule="fefuactivity" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="146" width="379" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="379" id="89R-lC-Xov"/>
+                                <constraint firstAttribute="height" constant="53" id="vf9-8t-eyN"/>
+                            </constraints>
+                            <attributedString key="attributedText"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Имя или никнейм" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ftk-pg-H6b" customClass="SignTextField" customModule="fefuactivity" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="219" width="379" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="379" id="2ac-bd-dPw"/>
+                                <constraint firstAttribute="height" constant="53" id="QlO-ZU-I5J"/>
+                            </constraints>
+                            <attributedString key="attributedText"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Пол" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cPJ-u2-aMF" customClass="PopUpTextField" customModule="fefuactivity" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="292" width="379" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="53" id="Xpy-lf-f9R"/>
+                                <constraint firstAttribute="width" constant="379" id="yo8-dM-g1E"/>
+                            </constraints>
+                            <attributedString key="attributedText"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="345" id="GiE-xG-sOp"/>
+                    </constraints>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8d-ic-TFQ" customClass="BaseButton" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="40" y="494.5" width="334" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="334" id="KCV-YF-TGV"/>
+                        <constraint firstAttribute="height" constant="56" id="qkX-0B-czJ"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Продолжить">
+                        <backgroundConfiguration key="background" cornerRadius="12">
+                            <color key="backgroundColor" red="0.29411764709999999" green="0.035294117649999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </backgroundConfiguration>
+                        <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </buttonConfiguration>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Imt-Mj-lNQ">
+                    <rect key="frame" x="18" y="627.5" width="378" height="96"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="96" id="ZFo-40-Fks"/>
+                    </constraints>
+                    <string key="text">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 12" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRi-Ao-bIp">
+                    <rect key="frame" x="174.5" y="752.5" width="65" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="L6y-RA-JOt"/>
+                        <constraint firstAttribute="height" constant="41" id="Q4Z-Cs-UzJ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="IGe-hh-8Lx" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="35.5" id="05t-mf-L2q"/>
+                <constraint firstAttribute="trailing" secondItem="Imt-Mj-lNQ" secondAttribute="trailing" constant="18" id="8ZD-dA-tRb"/>
+                <constraint firstItem="K8d-ic-TFQ" firstAttribute="top" secondItem="IGe-hh-8Lx" secondAttribute="bottom" constant="26" id="FNB-ee-MK3"/>
+                <constraint firstItem="K8d-ic-TFQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JLo-fB-o8L"/>
+                <constraint firstItem="Imt-Mj-lNQ" firstAttribute="top" secondItem="K8d-ic-TFQ" secondAttribute="bottom" constant="77" id="LPF-fk-Zxr"/>
+                <constraint firstItem="Imt-Mj-lNQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MY3-Rf-U4s"/>
+                <constraint firstItem="eRi-Ao-bIp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PtP-dT-Xl0"/>
+                <constraint firstItem="eRi-Ao-bIp" firstAttribute="top" secondItem="Imt-Mj-lNQ" secondAttribute="bottom" constant="29" id="Q6q-CZ-ydY"/>
+                <constraint firstItem="Imt-Mj-lNQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="18" id="dM2-Cp-6k4"/>
+                <constraint firstItem="IGe-hh-8Lx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="t6M-rM-aZM"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="133" y="95"/>
         </view>
     </objects>
     <resources>
+        <image name="Group 12" width="66" height="42"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
