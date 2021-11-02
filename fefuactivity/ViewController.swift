@@ -7,41 +7,56 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class ViewController:  UIViewController {
     
+    @IBOutlet weak var passField: UITextField!
     
     @IBOutlet weak var genderField: UITextField!
     
-    let genders = ["Мужской", "Женский"]
+    @IBOutlet weak var repeatPass: UITextField!
+    let genders = ["Man", "Woman"]
     
-    var pickerView = UIPickerView()
+    let pickerView = UIPickerView()
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         
-        pickerView.delegate = self
-        pickerView.dataSource = self
+        //pickerView.delegate = self
+        //pickerView.dataSource = self
         
         //genderField.inputView = pickerView
         //genderField.textAlignment = .center
-        //genderField.placeholder = "Select gender"
+        //genderField.placeholder = "Пол"
     }
     
-    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
+    
+    @IBAction func hidePass(_ sender: UIButton)
+    {
+        if passField.isSecureTextEntry == false
+        {
+            passField.isSecureTextEntry = true
+        }
+        else
+        {
+            passField.isSecureTextEntry = false
+            
+        }
     }
     
-    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return genders.count
+    @IBAction func hideRepeatPass(_ sender: UIButton)
+    {
+        if repeatPass.isSecureTextEntry == false
+        {
+            repeatPass.isSecureTextEntry = true
+        }
+        else
+        {
+            repeatPass.isSecureTextEntry = false
+            
+        }
     }
-    
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return genders[row]
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        genderField.text = genders[row]
-        genderField.resignFirstResponder()
-    }
-}
 
+    
+
+}
