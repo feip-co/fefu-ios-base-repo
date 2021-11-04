@@ -27,12 +27,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = MyTable.dequeueReusableCell(withIdentifier: "test") as! MySecondCell
-        cell.KmLable.text = "4 км"
-        cell.HowLongAgoLable.text = "24 часа назад"
-        cell.HowLongLable.text = "2 часа 30 минут"
-        cell.TitleLable.text = mytext[indexPath.row]
-        cell.ImageLable.image = UIImage(named: "bicucle")
-        cell.TypeLable.text = "велосипед"
         return cell
     }
     

@@ -9,14 +9,7 @@ import UIKit
 
 class MySecondCell: UITableViewCell {
 
-    @IBOutlet weak var HowLongAgoLable: UILabel!
-    @IBOutlet var TestView: UIView!
-    
-    @IBOutlet weak var ImageLable: UIImageView!
-    @IBOutlet weak var TypeLable: UILabel!
-    @IBOutlet weak var HowLongLable: UILabel!
-    @IBOutlet weak var KmLable: UILabel!
-    @IBOutlet weak var TitleLable: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
