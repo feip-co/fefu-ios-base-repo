@@ -413,16 +413,25 @@
                                     <action selector="Swich:" destination="qTt-oc-4BT" eventType="touchUpInside" id="lR5-62-6Ez"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pRB-gh-Tlp" customClass="AlmostWorkingTableView">
+                                <rect key="frame" x="0.0" y="56" width="414" height="504"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bkb-ef-iYj"/>
                         <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <constraints>
                             <constraint firstItem="bkb-ef-iYj" firstAttribute="trailing" secondItem="O7b-tw-xCA" secondAttribute="trailing" constant="40" id="Ayj-bX-iu8"/>
                             <constraint firstItem="bkb-ef-iYj" firstAttribute="bottom" secondItem="O7b-tw-xCA" secondAttribute="bottom" constant="131" id="GT3-zY-D5d"/>
+                            <constraint firstItem="O7b-tw-xCA" firstAttribute="top" secondItem="pRB-gh-Tlp" secondAttribute="bottom" constant="66" id="SKl-fL-B0G"/>
+                            <constraint firstItem="pRB-gh-Tlp" firstAttribute="leading" secondItem="bkb-ef-iYj" secondAttribute="leading" id="VyR-1N-mvZ"/>
                             <constraint firstItem="aOK-LT-hxO" firstAttribute="leading" secondItem="bkb-ef-iYj" secondAttribute="leading" constant="40" id="dfF-Ub-1Yb"/>
                             <constraint firstItem="aOK-LT-hxO" firstAttribute="top" secondItem="bkb-ef-iYj" secondAttribute="top" constant="295" id="dxz-eV-Dwq"/>
                             <constraint firstItem="O7b-tw-xCA" firstAttribute="leading" secondItem="bkb-ef-iYj" secondAttribute="leading" constant="40" id="gDN-dE-sv9"/>
+                            <constraint firstItem="pRB-gh-Tlp" firstAttribute="centerX" secondItem="gjR-R1-7AU" secondAttribute="centerX" id="gXL-EQ-6ic"/>
                             <constraint firstItem="bkb-ef-iYj" firstAttribute="trailing" secondItem="aOK-LT-hxO" secondAttribute="trailing" constant="40" id="lJZ-E2-hAw"/>
+                            <constraint firstItem="pRB-gh-Tlp" firstAttribute="top" secondItem="gjR-R1-7AU" secondAttribute="top" constant="56" id="oym-bm-DqF"/>
+                            <constraint firstItem="pRB-gh-Tlp" firstAttribute="trailing" secondItem="bkb-ef-iYj" secondAttribute="trailing" id="xgI-yA-IRh"/>
                             <constraint firstItem="O7b-tw-xCA" firstAttribute="top" secondItem="aOK-LT-hxO" secondAttribute="bottom" constant="169" id="z4W-Ck-R2z"/>
                         </constraints>
                     </view>
@@ -432,63 +441,13 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Активности" id="J3n-P0-vms"/>
                     <connections>
+                        <outlet property="AlmostWorkingTableView" destination="pRB-gh-Tlp" id="goe-i0-Ugw"/>
                         <outlet property="FirstView" destination="aOK-LT-hxO" id="D3a-yo-cgD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6VB-Wg-PTh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2715.9420289855075" y="370.98214285714283"/>
-        </scene>
-        <!--Nova Test Controller-->
-        <scene sceneID="tXc-v7-GdJ">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="zt0-J5-cjH" customClass="NovaTestController" customModule="fefuactivity" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9l6-Ty-cbW" customClass="NovaTest" customModule="fefuactivity" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="SYm-5D-FGh" customClass="NewTable" customModule="fefuactivity">
-                                <rect key="frame" x="0.0" y="44" width="414" height="688"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="sectionIndexColor" systemColor="labelColor"/>
-                                <sections/>
-                            </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItB-co-yZU">
-                                <rect key="frame" x="40" y="787" width="334" height="56"/>
-                                <color key="backgroundColor" systemColor="tintColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="PAi-Wm-nzI"/>
-                                </constraints>
-                                <state key="normal" title="Старт">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="xJF-US-GPv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="SYm-5D-FGh" firstAttribute="leading" secondItem="xJF-US-GPv" secondAttribute="leading" id="41s-ee-UQL"/>
-                            <constraint firstItem="xJF-US-GPv" firstAttribute="trailing" secondItem="ItB-co-yZU" secondAttribute="trailing" constant="40" id="BOT-f6-b4W"/>
-                            <constraint firstItem="SYm-5D-FGh" firstAttribute="trailing" secondItem="xJF-US-GPv" secondAttribute="trailing" id="gNT-38-hNr"/>
-                            <constraint firstItem="ItB-co-yZU" firstAttribute="top" secondItem="SYm-5D-FGh" secondAttribute="bottom" constant="55" id="hsP-Oo-Qbg"/>
-                            <constraint firstItem="ItB-co-yZU" firstAttribute="leading" secondItem="xJF-US-GPv" secondAttribute="leading" constant="40" id="iEf-Df-GsP"/>
-                            <constraint firstItem="SYm-5D-FGh" firstAttribute="top" secondItem="xJF-US-GPv" secondAttribute="top" id="mcK-ZR-eCD"/>
-                            <constraint firstItem="xJF-US-GPv" firstAttribute="bottom" secondItem="ItB-co-yZU" secondAttribute="bottom" constant="19" id="tcn-Qk-q0P"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="zD2-Xh-lZQ"/>
-                    <connections>
-                        <outlet property="NewTable" destination="SYm-5D-FGh" id="gXb-NP-tWe"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="n3f-QF-kTN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2622" y="1049"/>
         </scene>
         <!--Item-->
         <scene sceneID="4s9-9T-6hP">
@@ -619,7 +578,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H0r-xP-EYe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3507" y="371"/>
+            <point key="canvasLocation" x="3386" y="447"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Bxh-qg-XCB">

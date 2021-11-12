@@ -7,15 +7,34 @@
 
 import UIKit
 
-class ActivityStartViewController: UIViewController {
+class ActivityStartViewController:
+    UIViewController {
     @IBAction func Swich(_ sender: Any) {
-        FirstView.isHidden = false;
+        FirstView.isHidden = true;
+        AlmostWorkingTableView.isHidden = false;
     }
+    let idCell = "CellFinal"
+
+    @IBOutlet weak var AlmostWorkingTableView: UITableView!
     @IBOutlet weak var FirstView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        FirstView.isHidden = true;
+        AlmostWorkingTableView.isHidden = true;
+        AlmostWorkingTableView.dataSource = self;
+        AlmostWorkingTableView.register(UINib(nibName: "CellFinal", bundle:nil), forCellReuseIdentifier: idCell)
     }
 
 }
 
+extension ActivityStartViewController: UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellFinal", for: indexPath) as! CellFinal
+        return cell
+    }
+    
+    
+}
