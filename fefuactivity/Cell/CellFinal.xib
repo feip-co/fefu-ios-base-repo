@@ -73,6 +73,11 @@
                                     <constraint firstItem="luI-hc-CXY" firstAttribute="leading" secondItem="EWZ-2a-hXA" secondAttribute="leading" constant="16" id="fh4-mF-5qe"/>
                                     <constraint firstItem="r5p-VU-D3Z" firstAttribute="top" secondItem="luI-hc-CXY" secondAttribute="bottom" constant="29.5" id="ifD-e0-ALw"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вчера" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YkL-gg-lef">
                                 <rect key="frame" x="27" y="19" width="49" height="20.5"/>
@@ -81,7 +86,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="EWZ-2a-hXA" firstAttribute="leading" secondItem="xA2-wP-Dmm" secondAttribute="leading" constant="15" id="1DI-2b-HoR"/>
                             <constraint firstItem="YkL-gg-lef" firstAttribute="leading" secondItem="xA2-wP-Dmm" secondAttribute="leading" constant="27" id="1V6-nI-YeM"/>
@@ -101,6 +105,7 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="grandView" destination="xA2-wP-Dmm" id="o2p-je-win"/>
                 <outlet property="inerView" destination="EWZ-2a-hXA" id="1jd-As-q9T"/>
                 <outlet property="lenght" destination="luI-hc-CXY" id="fpg-7A-JO7"/>
                 <outlet property="picture" destination="6pv-4F-3hy" id="j1m-xN-m10"/>

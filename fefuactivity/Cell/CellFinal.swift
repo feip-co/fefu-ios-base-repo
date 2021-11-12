@@ -8,6 +8,7 @@
 import UIKit
 
 class CellFinal: UITableViewCell {
+    @IBOutlet weak var grandView: UIView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var lenght: UILabel!
     @IBOutlet weak var time: UILabel!

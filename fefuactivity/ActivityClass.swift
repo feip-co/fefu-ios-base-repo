@@ -24,6 +24,7 @@ class ActivityStartViewController:
         AlmostWorkingTableView.delegate = self;
         AlmostWorkingTableView.register(UINib(nibName: "CellFinal", bundle:nil), forCellReuseIdentifier: idCell)
         self.AlmostWorkingTableView.rowHeight = 220
+        AlmostWorkingTableView.backgroundColor = UIColor.clear
     }
 
 }
@@ -36,6 +37,8 @@ extension ActivityStartViewController: UITableViewDataSource, UITableViewDelegat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellFinal", for: indexPath) as! CellFinal
         cell.title.text = time[indexPath.row]
+        cell.grandView.backgroundColor = UIColor.clear;
+        cell.backgroundColor = UIColor.clear;
         return cell
     }
     
