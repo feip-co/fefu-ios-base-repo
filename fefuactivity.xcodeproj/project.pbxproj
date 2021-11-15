@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D51DA58273E868500076142 /* ActivityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D51DA57273E868500076142 /* ActivityClass.swift */; };
+		1D51DA5C273E924000076142 /* CellFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D51DA5A273E924000076142 /* CellFinal.swift */; };
+		1D51DA5D273E924000076142 /* CellFinal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D51DA5B273E924000076142 /* CellFinal.xib */; };
 		1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */; };
 		1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */; };
 		1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4E5C8270A5CCE004A30CA /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D51DA57273E868500076142 /* ActivityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityClass.swift; sourceTree = "<group>"; };
+		1D51DA5A273E924000076142 /* CellFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFinal.swift; sourceTree = "<group>"; };
+		1D51DA5B273E924000076142 /* CellFinal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellFinal.xib; sourceTree = "<group>"; };
 		1DE4E5C1270A5CCE004A30CA /* fefuactivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fefuactivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D51DA59273E91DE00076142 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1D51DA5A273E924000076142 /* CellFinal.swift */,
+				1D51DA5B273E924000076142 /* CellFinal.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		1DE4E5B8270A5CCE004A30CA = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +71,7 @@
 		1DE4E5C3270A5CCE004A30CA /* fefuactivity */ = {
 			isa = PBXGroup;
 			children = (
+				1D51DA59273E91DE00076142 /* Cell */,
 				1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */,
 				1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */,
 				1DE4E5C8270A5CCE004A30CA /* ViewController.swift */,
@@ -63,6 +79,7 @@
 				1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */,
 				1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */,
 				1DE4E5D2270A5CD0004A30CA /* Info.plist */,
+				1D51DA57273E868500076142 /* ActivityClass.swift */,
 			);
 			path = fefuactivity;
 			sourceTree = "<group>";
@@ -125,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
+				1D51DA5D273E924000076142 /* CellFinal.xib in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
 				1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */,
 			);
@@ -140,6 +158,8 @@
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
+				1D51DA5C273E924000076142 /* CellFinal.swift in Sources */,
+				1D51DA58273E868500076142 /* ActivityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
