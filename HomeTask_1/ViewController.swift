@@ -120,7 +120,12 @@ class ExactActivity: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       
+        let label = UILabel()
+        label.text = "Велосипед";
+        label.textColor = UIColor.black
+        label.backgroundColor = UIColor.white
+        label.adjustsFontSizeToFitWidth = true
+        self.navigationItem.titleView = label
         
     }
     
@@ -190,6 +195,7 @@ extension ViewControllerNum3: CLLocationManagerDelegate {
             return
         }
         print("received user locations:", currentLocation.coordinate)
+        userLocation = currentLocation
     }
 }
 
