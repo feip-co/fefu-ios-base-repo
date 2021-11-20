@@ -36,9 +36,11 @@
                                         <color key="textColor" name="Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="велосипед" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tYh-gT-AJ2">
-                                        <rect key="frame" x="35" y="70" width="79" height="18"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="велосипед" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYh-gT-AJ2">
+                                        <rect key="frame" x="35" y="70" width="79" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="79" id="G9E-SG-6Fz"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -68,6 +70,7 @@
                                     <constraint firstItem="lsw-ru-efg" firstAttribute="top" secondItem="luI-hc-CXY" secondAttribute="bottom" constant="2.5" id="SJH-gU-VtM"/>
                                     <constraint firstItem="r5p-VU-D3Z" firstAttribute="leading" secondItem="tYh-gT-AJ2" secondAttribute="trailing" constant="105" id="UKb-x8-blY"/>
                                     <constraint firstItem="tYh-gT-AJ2" firstAttribute="leading" secondItem="6pv-4F-3hy" secondAttribute="trailing" constant="8" symbolic="YES" id="WDi-CX-Enh"/>
+                                    <constraint firstAttribute="bottom" secondItem="tYh-gT-AJ2" secondAttribute="bottom" constant="26.5" id="Zne-o3-fMS"/>
                                     <constraint firstItem="tYh-gT-AJ2" firstAttribute="top" secondItem="lsw-ru-efg" secondAttribute="bottom" constant="9" id="aC9-sM-cYH"/>
                                     <constraint firstItem="6pv-4F-3hy" firstAttribute="top" secondItem="lsw-ru-efg" secondAttribute="bottom" constant="9" id="dKF-MQ-JPN"/>
                                     <constraint firstItem="luI-hc-CXY" firstAttribute="leading" secondItem="EWZ-2a-hXA" secondAttribute="leading" constant="16" id="fh4-mF-5qe"/>

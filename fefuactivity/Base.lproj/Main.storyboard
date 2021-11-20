@@ -411,6 +411,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="Swich:" destination="qTt-oc-4BT" eventType="touchUpInside" id="lR5-62-6Ez"/>
+                                    <segue destination="Wj5-DG-mak" kind="show" id="fcf-mY-flZ"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pRB-gh-Tlp" customClass="AlmostWorkingTableView">
@@ -448,6 +449,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6VB-Wg-PTh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2715.9420289855075" y="370.98214285714283"/>
+        </scene>
+        <!--HW3-->
+        <scene sceneID="wzJ-yh-kBu">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HW3" storyboardName="HW3" referencedIdentifier="HW3" id="Wj5-DG-mak" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="9vj-ES-gWw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pdp-aU-Zwj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2716" y="785"/>
         </scene>
         <!--Item-->
         <scene sceneID="4s9-9T-6hP">

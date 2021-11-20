@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3CCD342749025700696239 /* HW3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3CCD332749025700696239 /* HW3.storyboard */; };
 		1D51DA58273E868500076142 /* ActivityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D51DA57273E868500076142 /* ActivityClass.swift */; };
 		1D51DA5C273E924000076142 /* CellFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D51DA5A273E924000076142 /* CellFinal.swift */; };
 		1D51DA5D273E924000076142 /* CellFinal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D51DA5B273E924000076142 /* CellFinal.xib */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D3CCD332749025700696239 /* HW3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HW3.storyboard; sourceTree = "<group>"; };
 		1D51DA57273E868500076142 /* ActivityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityClass.swift; sourceTree = "<group>"; };
 		1D51DA5A273E924000076142 /* CellFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFinal.swift; sourceTree = "<group>"; };
 		1D51DA5B273E924000076142 /* CellFinal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellFinal.xib; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D3CCD322749022B00696239 /* Дз3 */ = {
+			isa = PBXGroup;
+			children = (
+				1D3CCD332749025700696239 /* HW3.storyboard */,
+			);
+			path = "Дз3";
+			sourceTree = "<group>";
+		};
 		1D51DA59273E91DE00076142 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		1DE4E5C3270A5CCE004A30CA /* fefuactivity */ = {
 			isa = PBXGroup;
 			children = (
+				1D3CCD322749022B00696239 /* Дз3 */,
 				1D51DA59273E91DE00076142 /* Cell */,
 				1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */,
 				1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */,
@@ -143,6 +154,7 @@
 			files = (
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
 				1D51DA5D273E924000076142 /* CellFinal.xib in Resources */,
+				1D3CCD342749025700696239 /* HW3.storyboard in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
 				1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */,
 			);
