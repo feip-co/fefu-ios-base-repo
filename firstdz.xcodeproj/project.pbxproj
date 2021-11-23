@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E8DA757272CF925007B31D8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DA756272CF925007B31D8 /* TableViewController.swift */; };
+		9E8DA763274D17E6007B31D8 /* ViewControllerdz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DA762274D17E6007B31D8 /* ViewControllerdz3.swift */; };
 		9E98753827291EA0002439A8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98753627291EA0002439A8 /* TableViewCell.swift */; };
 		9E98753927291EA0002439A8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E98753727291EA0002439A8 /* TableViewCell.xib */; };
 		9EEEEDBA271F9638008F1754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEEEDB9271F9638008F1754 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		9E8DA756272CF925007B31D8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9E8DA762274D17E6007B31D8 /* ViewControllerdz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerdz3.swift; sourceTree = "<group>"; };
 		9E98753627291EA0002439A8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9E98753727291EA0002439A8 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		9EEEEDB6271F9638008F1754 /* firstdz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstdz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 				9E98753727291EA0002439A8 /* TableViewCell.xib */,
 				9EEEEDB7271F9638008F1754 /* Products */,
 				9E8DA756272CF925007B31D8 /* TableViewController.swift */,
+				9E8DA762274D17E6007B31D8 /* ViewControllerdz3.swift */,
 			);
 			path = firstdz;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				9E98753827291EA0002439A8 /* TableViewCell.swift in Sources */,
 				9EEEEDBA271F9638008F1754 /* AppDelegate.swift in Sources */,
 				9E8DA757272CF925007B31D8 /* TableViewController.swift in Sources */,
+				9E8DA763274D17E6007B31D8 /* ViewControllerdz3.swift in Sources */,
 				9EEEEDBC271F9638008F1754 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -414,6 +414,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="startButtonClick:" destination="Bnm-By-1wb" eventType="touchUpInside" id="jgV-OK-Il5"/>
+                                    <segue destination="8qq-Ru-uGi" kind="push" id="4yw-4P-lvX"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="NewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pS2-PB-GD3">
@@ -445,7 +446,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A7N-Oa-AZk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2394.202898550725" y="2310.9375"/>
+            <point key="canvasLocation" x="-2748" y="2320"/>
         </scene>
         <!--Table Info View Controller-->
         <scene sceneID="YcB-7n-dfF">
@@ -572,6 +573,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xf7-eW-Akt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2394.202898550725" y="3028.7946428571427"/>
+        </scene>
+        <!--View Controllerdz3-->
+        <scene sceneID="p9t-TX-DvU">
+            <objects>
+                <viewController id="8qq-Ru-uGi" customClass="ViewControllerdz3" customModule="firstdz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A66-bs-2dd"/>
+                        <viewControllerLayoutGuide type="bottom" id="HRf-ge-MHj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fOy-8h-Gvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="br0-Pf-Qw8">
+                                <rect key="frame" x="20" y="88" width="374" height="725"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HRf-ge-MHj" firstAttribute="top" secondItem="br0-Pf-Qw8" secondAttribute="bottom" id="Dff-J0-xXh"/>
+                            <constraint firstItem="br0-Pf-Qw8" firstAttribute="top" secondItem="A66-bs-2dd" secondAttribute="bottom" id="GqX-Ix-6w2"/>
+                            <constraint firstItem="br0-Pf-Qw8" firstAttribute="leading" secondItem="fOy-8h-Gvc" secondAttribute="leadingMargin" id="RJS-VL-ksQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="br0-Pf-Qw8" secondAttribute="trailing" id="imJ-JV-MSt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kbd-cP-dE0"/>
+                    <connections>
+                        <outlet property="mapView" destination="br0-Pf-Qw8" id="q6R-ZC-QiD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w0o-L3-zUf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1890" y="2320"/>
         </scene>
         <!--Profile-->
         <scene sceneID="hlb-HI-fTg">
