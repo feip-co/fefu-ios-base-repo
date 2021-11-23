@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginController" customModule="fefuactivity" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Логин" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AZx-Al-Hja">
+                    <rect key="frame" x="17" y="120" width="380" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="QMf-vS-Q19"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hoJ-5x-Ozg">
+                    <rect key="frame" x="17" y="193" width="380" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="iaC-Ex-XQw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0U3-Ue-V6G">
+                    <rect key="frame" x="40" y="288" width="334" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="yAU-Sa-R5f"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Продолжить">
+                        <backgroundConfiguration key="background">
+                            <color key="backgroundColor" name="BlueBtnColor"/>
+                        </backgroundConfiguration>
+                        <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="q4o-tq-TQM">
+                    <rect key="frame" x="0.0" y="416" width="414" height="388"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hoJ-5x-Ozg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="17" id="0Qs-KG-8Ea"/>
+                <constraint firstItem="0U3-Ue-V6G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="2ql-50-dsN"/>
+                <constraint firstItem="q4o-tq-TQM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="992-hv-Zga"/>
+                <constraint firstItem="0U3-Ue-V6G" firstAttribute="top" secondItem="hoJ-5x-Ozg" secondAttribute="bottom" constant="42" id="C9b-LA-7gA"/>
+                <constraint firstItem="0U3-Ue-V6G" firstAttribute="top" secondItem="hoJ-5x-Ozg" secondAttribute="top" id="FU6-Gu-Giz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AZx-Al-Hja" secondAttribute="trailing" constant="17" id="ZJu-6k-bw6"/>
+                <constraint firstItem="q4o-tq-TQM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="d5a-fk-0x3"/>
+                <constraint firstItem="q4o-tq-TQM" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="dCd-aM-W5r"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hoJ-5x-Ozg" secondAttribute="trailing" constant="17" id="mVD-ec-lEb"/>
+                <constraint firstItem="AZx-Al-Hja" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="17" id="njU-Sc-3np"/>
+                <constraint firstItem="hoJ-5x-Ozg" firstAttribute="top" secondItem="AZx-Al-Hja" secondAttribute="bottom" constant="20" id="noe-Bv-Cx9"/>
+                <constraint firstItem="q4o-tq-TQM" firstAttribute="top" secondItem="0U3-Ue-V6G" secondAttribute="bottom" constant="72" id="pI6-dU-3D0"/>
+                <constraint firstItem="AZx-Al-Hja" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="phJ-0F-J1q"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0U3-Ue-V6G" secondAttribute="trailing" constant="40" id="yXL-BL-ntS"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="FU6-Gu-Giz"/>
+                    <exclude reference="d5a-fk-0x3"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="139" y="75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Background" width="414" height="388.5"/>
+        <namedColor name="BlueBtnColor">
+            <color red="0.29411764705882354" green="0.035294117647058823" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
