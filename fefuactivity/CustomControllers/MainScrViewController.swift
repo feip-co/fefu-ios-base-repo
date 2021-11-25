@@ -15,9 +15,11 @@ class MainScrViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(navigationController)
+        
         ExistBtn.setTitle("Уже есть аккаунт?", for: .normal)
         RegBtn.setTitle("Зарегистрироваться", for: .normal)
+        present(TabsViewController(nibName: "TabsViewController", bundle: nil),
+        animated: true, completion: nil)
     }
     
     @IBAction func RegBtnTap(_ sender: Any) {

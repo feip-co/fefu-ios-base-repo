@@ -1,13 +1,13 @@
 //
-//  ActivitiesViewController.swift
+//  ActivityTableViewController.swift
 //  fefuactivity
 //
-//  Created by soFuckingHot on 23.11.2021.
+//  Created by soFuckingHot on 24.11.2021.
 //
 
 import UIKit
 
-class ActivitiesViewController: UIViewController {
+class ActivityTableViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
