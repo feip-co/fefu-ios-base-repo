@@ -81,8 +81,10 @@ class ActivitiesViewController: UIViewController {
     
     
     @IBAction func didStartBtnTap(_ sender: Any) {
-        activitiesTable.isHidden = false
-        emptyActivitiesScreen.isHidden = true
+        let activityController = ActivityBeginViewController(nibName: "ActivityBeginViewController", bundle: nil)
+        
+        navigationController?.pushViewController(activityController, animated: true)
+        
     }
     
 
