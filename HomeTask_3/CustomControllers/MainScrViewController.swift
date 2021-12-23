@@ -16,9 +16,6 @@ class MainScrViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        present(TabsViewController(nibName: "TabsViewController", bundle: nil),
-        animated: true, completion: nil)
-        
     }
     @IBAction func RegBtnTap(_ sender: Any) {
         let regView = RegisterController(nibName: "RegisterController", bundle: nil)

@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterController" customModule="fefuactivity" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterController" customModule="HomeTask_3" customModuleProvider="target">
             <connections>
                 <outlet property="ContinueBtn" destination="TOy-C6-nbU" id="sSu-RZ-zCX"/>
                 <outlet property="ScrollViewOutlet" destination="wol-yl-RsP" id="Fa9-YM-DPQ"/>
                 <outlet property="genderPickerOutlet" destination="RCw-4c-CCx" id="Te2-UO-7oq"/>
+                <outlet property="loginField" destination="uQq-jE-Jce" id="fSi-x7-zhL"/>
+                <outlet property="nicknameField" destination="Vym-hw-0bD" id="79Y-Vh-usB"/>
+                <outlet property="passwordField" destination="zwB-cK-bbk" id="u6T-d6-AJk"/>
+                <outlet property="repeatPasswordField" destination="BAc-h9-leN" id="dPg-bQ-OTx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O9g-mx-2Jp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O9g-mx-2Jp">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -29,7 +29,7 @@
         <!--Main Scr View Controller-->
         <scene sceneID="fJl-9h-mrK">
             <objects>
-                <viewController id="qYQ-Kk-exa" customClass="MainScrViewController" customModule="fefuactivity" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qYQ-Kk-exa" customClass="MainScrViewController" customModule="HomeTask_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="38p-Vh-b2J">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,8 +136,8 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="FA1-4J-FwK"/>
                                 <exclude reference="Pd4-ef-uJY"/>
+                                <exclude reference="FA1-4J-FwK"/>
                                 <exclude reference="Buh-zF-65P"/>
                                 <exclude reference="r34-Ca-gS3"/>
                                 <exclude reference="mgf-fz-0a6"/>

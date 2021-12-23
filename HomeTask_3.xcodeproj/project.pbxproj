@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D74DC17277444A600367942 /* UserAuthRegistr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74DC16277444A600367942 /* UserAuthRegistr.swift */; };
+		1D74DC192774463D00367942 /* UserAuthRegistrUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74DC182774463D00367942 /* UserAuthRegistrUrl.swift */; };
 		1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */; };
 		1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */; };
 		1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CA270A5CCE004A30CA /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D74DC16277444A600367942 /* UserAuthRegistr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthRegistr.swift; sourceTree = "<group>"; };
+		1D74DC182774463D00367942 /* UserAuthRegistrUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthRegistrUrl.swift; sourceTree = "<group>"; };
 		1DE4E5C1270A5CCE004A30CA /* HomeTask_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeTask_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,7 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				1FA50449275E218100954C35 /* HomeTask_3.xcdatamodeld */,
+				1D74DC182774463D00367942 /* UserAuthRegistrUrl.swift */,
 				C4C575722758820D00276651 /* CTopCornersView.swift */,
+				1D74DC16277444A600367942 /* UserAuthRegistr.swift */,
 				C4C5756E27579D2400276651 /* ActivityTypeCollectionViewCell.swift */,
 				C4C5756F27579D2400276651 /* ActivityTypeCollectionViewCell.xib */,
 				C480B9432757199C008FEC13 /* PauseResumeActivityBtn.swift */,
@@ -246,11 +252,13 @@
 				C478B0312744F7C1002E7580 /* RegisterController.swift in Sources */,
 				1FA5044B275E218100954C35 /* HomeTask_3.xcdatamodeld in Sources */,
 				C478B0342744FD5A002E7580 /* CTextField.swift in Sources */,
+				1D74DC17277444A600367942 /* UserAuthRegistr.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
 				C4E0F015271D807B0036A948 /* CStyledButton.swift in Sources */,
 				C4C5757027579D2400276651 /* ActivityTypeCollectionViewCell.swift in Sources */,
 				C41D38EB275106A0008BC88E /* ActivityBeginViewController.swift in Sources */,
 				C48CA687274CF457009B6CB9 /* ActivitiesViewController.swift in Sources */,
+				1D74DC192774463D00367942 /* UserAuthRegistrUrl.swift in Sources */,
 				C47930A6272A6BC50020DFC8 /* MainScrViewController.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
 				C48CA683274CF3CD009B6CB9 /* ProfileViewController.swift in Sources */,
