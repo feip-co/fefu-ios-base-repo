@@ -14,7 +14,7 @@
 		1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */; };
 		1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */; };
 		2C01746127198F5500154C57 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C01746027198F5500154C57 /* SF-Pro-Display-Regular.otf */; };
-		2C017463271991B100154C57 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C017462271991B100154C57 /* SF-Pro-Display-Bold.otf */; };
+		2C017463271991B100154C57 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C017462271991B100154C57 /* SF-Pro-Text-Bold.otf */; };
 		2C4A210D2719B1E900AE6331 /* fefu_button_type_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A210C2719B1E900AE6331 /* fefu_button_type_1.swift */; };
 		2CBE37EC27291CBA009BC25C /* fefu_button_light_blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE37EB27291CBA009BC25C /* fefu_button_light_blue.swift */; };
 		2CC209C2271AAA6900D5453C /* fefu_text_field_type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC209C1271AAA6900D5453C /* fefu_text_field_type1.swift */; };
@@ -30,8 +30,8 @@
 		1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE4E5D0270A5CD0004A30CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE4E5D2270A5CD0004A30CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C01746027198F5500154C57 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
-		2C017462271991B100154C57 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Bold.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		2C01746027198F5500154C57 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../../../Downloads/San Francisco Pro Text 2/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		2C017462271991B100154C57 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "../../../../../../Downloads/San Francisco Pro Text 2/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
 		2C4A210C2719B1E900AE6331 /* fefu_button_type_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fefu_button_type_1.swift; sourceTree = "<group>"; };
 		2CBE37EB27291CBA009BC25C /* fefu_button_light_blue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fefu_button_light_blue.swift; sourceTree = "<group>"; };
 		2CC209C1271AAA6900D5453C /* fefu_text_field_type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fefu_text_field_type1.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 				1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */,
 				1DE4E5D2270A5CD0004A30CA /* Info.plist */,
 				2C01746027198F5500154C57 /* SF-Pro-Display-Regular.otf */,
-				2C017462271991B100154C57 /* SF-Pro-Display-Bold.otf */,
+				2C017462271991B100154C57 /* SF-Pro-Text-Bold.otf */,
 				2C4A210C2719B1E900AE6331 /* fefu_button_type_1.swift */,
 				2CC209C1271AAA6900D5453C /* fefu_text_field_type1.swift */,
 				2CC209C3271AB8E200D5453C /* custom_navigation_item_type1.swift */,
@@ -143,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
-				2C017463271991B100154C57 /* SF-Pro-Display-Bold.otf in Resources */,
+				2C017463271991B100154C57 /* SF-Pro-Text-Bold.otf in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
 				2C01746127198F5500154C57 /* SF-Pro-Display-Regular.otf in Resources */,
 				1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */,
