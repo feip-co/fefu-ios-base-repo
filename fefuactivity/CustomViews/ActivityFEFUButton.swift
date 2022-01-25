@@ -2,8 +2,9 @@
 //  ActivityFEFUButton.swift
 //  fefuactivity
 //
+//  Created by Егор Блинов on 04.10.2021.
 //
-//
+
 import UIKit
 
 class ActivityFEFUButton: UIButton {
@@ -11,12 +12,12 @@ class ActivityFEFUButton: UIButton {
         super.init(frame: frame)
         setupStyles()
     }
-
+    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupStyles()
     }
-
+    
     private func setupStyles() {
         layer.cornerRadius = 12
         backgroundColor = UIColor(named: "ButtonBackgroundColor")

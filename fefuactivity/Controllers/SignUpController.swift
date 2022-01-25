@@ -5,6 +5,7 @@ class SignUpController: UIViewController, UIPickerViewDelegate, UIPickerViewData
    
     @IBOutlet weak var genderPicker: SignFEFUTextField!
     @IBOutlet weak var continueButton: ActivityFEFUButton!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     let genders = ["", "Мужской", "Женский"]
     
@@ -22,7 +23,6 @@ class SignUpController: UIViewController, UIPickerViewDelegate, UIPickerViewData
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        
     }
     
     private func commonInit() {
@@ -38,6 +38,29 @@ class SignUpController: UIViewController, UIPickerViewDelegate, UIPickerViewData
         navigationItem.largeTitleDisplayMode = .always
         navigationItem.title = "Регистрация"
         navigationItem.prompt = ""
+        
+        createNotifications()
+    }
+    
+    func createNotifications() {
+        let notification = NotificationCenter.default
+        
+        notification.addObserver(self, selector: #selector(willShowKeyboard(_: )), name:UIWindow.keyboardWillShowNotification, object: nil)
+        
+        notification.addObserver(self, selector: #selector(willHideKeyboard(_:)), name: UIWindow.keyboardWillHideNotification, object: nil)
+    }
+    
+    @objc func willShowKeyboard(_ sender: Notification) {
+        let rawFrame = sender.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue
+        guard let height = rawFrame?.cgRectValue.height else {
+            return
+        }
+        
+        scrollView.contentInset.bottom = height
+    }
+    
+    @objc func willHideKeyboard(_ sender: Notification) {
+        scrollView.contentInset.bottom = 0
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
