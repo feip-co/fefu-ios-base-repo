@@ -13,6 +13,13 @@
 		1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CA270A5CCE004A30CA /* Main.storyboard */; };
 		1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */; };
 		1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */; };
+		B40A167C270DD936004E594A /* SecureFEFUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A167B270DD936004E594A /* SecureFEFUTextField.swift */; };
+		B40A1681270DF7D6004E594A /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A167F270DF7D6004E594A /* SignUpController.swift */; };
+		B40A1682270DF7D6004E594A /* SignUpController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40A1680270DF7D6004E594A /* SignUpController.xib */; };
+		B433AEC1270ED759004A6CB1 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433AEBF270ED759004A6CB1 /* SignInController.swift */; };
+		B433AEC2270ED759004A6CB1 /* SignInController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B433AEC0270ED759004A6CB1 /* SignInController.xib */; };
+		B452D057270DB88800FA4262 /* SignFEFUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B452D056270DB88800FA4262 /* SignFEFUTextField.swift */; };
+		B490BB98270ACED100F11E64 /* ActivityFEFUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490BB97270ACED100F11E64 /* ActivityFEFUButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE4E5D0270A5CD0004A30CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE4E5D2270A5CD0004A30CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40A167B270DD936004E594A /* SecureFEFUTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFEFUTextField.swift; sourceTree = "<group>"; };
+		B40A167F270DF7D6004E594A /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		B40A1680270DF7D6004E594A /* SignUpController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpController.xib; sourceTree = "<group>"; };
+		B433AEBF270ED759004A6CB1 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		B433AEC0270ED759004A6CB1 /* SignInController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInController.xib; sourceTree = "<group>"; };
+		B452D056270DB88800FA4262 /* SignFEFUTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignFEFUTextField.swift; sourceTree = "<group>"; };
+		B490BB97270ACED100F11E64 /* ActivityFEFUButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFEFUButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 		1DE4E5C3270A5CCE004A30CA /* fefuactivity */ = {
 			isa = PBXGroup;
 			children = (
+				B452D056270DB88800FA4262 /* SignFEFUTextField.swift */,
 				1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */,
 				1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */,
 				1DE4E5C8270A5CCE004A30CA /* ViewController.swift */,
@@ -63,6 +78,12 @@
 				1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */,
 				1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */,
 				1DE4E5D2270A5CD0004A30CA /* Info.plist */,
+				B490BB97270ACED100F11E64 /* ActivityFEFUButton.swift */,
+				B40A167B270DD936004E594A /* SecureFEFUTextField.swift */,
+				B40A167F270DF7D6004E594A /* SignUpController.swift */,
+				B40A1680270DF7D6004E594A /* SignUpController.xib */,
+				B433AEBF270ED759004A6CB1 /* SignInController.swift */,
+				B433AEC0270ED759004A6CB1 /* SignInController.xib */,
 			);
 			path = fefuactivity;
 			sourceTree = "<group>";
@@ -127,6 +148,8 @@
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
 				1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */,
+				B40A1682270DF7D6004E594A /* SignUpController.xib in Resources */,
+				B433AEC2270ED759004A6CB1 /* SignInController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40A167C270DD936004E594A /* SecureFEFUTextField.swift in Sources */,
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
+				B40A1681270DF7D6004E594A /* SignUpController.swift in Sources */,
+				B452D057270DB88800FA4262 /* SignFEFUTextField.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
+				B433AEC1270ED759004A6CB1 /* SignInController.swift in Sources */,
+				B490BB98270ACED100F11E64 /* ActivityFEFUButton.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,14 +315,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4TAXLE7T2Y;
+				DEVELOPMENT_TEAM = 7MH4VYPRKR;
 				INFOPLIST_FILE = fefuactivity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.feip.fefuactivity;
+				PRODUCT_BUNDLE_IDENTIFIER = io.egorblinov.fefuactivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -307,14 +335,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4TAXLE7T2Y;
+				DEVELOPMENT_TEAM = 7MH4VYPRKR;
 				INFOPLIST_FILE = fefuactivity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.feip.fefuactivity;
+				PRODUCT_BUNDLE_IDENTIFIER = io.egorblinov.fefuactivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
