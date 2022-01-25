@@ -1,10 +1,3 @@
-//
-//  StartActivityButton.swift
-//  fefuactivity
-//
-//  Created by Егор Блинов on 18.10.2021.
-//
-
 import UIKit
 
 class StartActivityButton: UIButton {
@@ -20,8 +13,9 @@ class StartActivityButton: UIButton {
     }
     
     private func setupStyles() {
-        layer.cornerRadius = 10
-        backgroundColor = .systemBlue
-        setTitle("Старт", for: .normal)
+        self.layer.cornerRadius = 10
+        self.backgroundColor = .systemBlue
+        self.titleLabel?.textColor = .white
+        self.setTitle("Старт", for: .normal)
     }
 }

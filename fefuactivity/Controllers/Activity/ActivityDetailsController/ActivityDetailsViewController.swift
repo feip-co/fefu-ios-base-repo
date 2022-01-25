@@ -1,12 +1,11 @@
 import UIKit
 
 class ActivityDetailsViewController: UIViewController {
-    
-    var model: ActivityTableViewCellViewModel? = nil
+    var model: ActivityViewModel?
     
     @IBOutlet weak var startButton: ActivityFEFUButton!
     @IBOutlet weak var distanceLabel: UILabel!
-    @IBOutlet weak var timeAgoLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var activityDurationLabel: UILabel!
     @IBOutlet weak var startEndTimeLabel: UILabel!
     @IBOutlet weak var activityTitleLabel: UILabel!
@@ -20,24 +19,34 @@ class ActivityDetailsViewController: UIViewController {
         super.viewDidLoad()
         startButton.setTitle("Старт", for: .normal)
         startButton.titleLabel?.font = .boldSystemFont(ofSize: 16)
-        commonInit()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        bind(model!)
         navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .plain, target: nil, action: nil)
     }
     
-    private func commonInit() {
-        distanceLabel.text = model?.distance
-        timeAgoLabel.text = model?.timeAgo
-        activityDurationLabel.text = model?.duration
-        startEndTimeLabel.text = "Старт: \(model?.startTime ?? "нет данных") • Финиш: \(model?.endTime ?? "нет данных")"
-        activityTitleLabel.text = model?.activityTitle
-        secondTimeAgoLabel.text = model?.timeAgo
-        iconActivity.image = model?.icon
+    func bind(_ model: ActivityViewModel) {
+        distanceLabel.text = model.distance
         
-        self.title = model?.activityTitle
+        activityDurationLabel.text = model.duration
+        
+        startEndTimeLabel.text = "Cтарт: \(model.startTime) Финиш: \(model.endTime)"
+        
+        activityTitleLabel.text = model.activityType
+        self.title = model.activityType
+        
+        dateLabel.text = model.startDate
+        secondTimeAgoLabel.text = model.startDate
+        iconActivity.image = model.icon
+    }
+    
+    @IBAction func didStartTracking(_ sender: Any) {
+        let startActivityController = StartActivityViewController(nibName: "StartActivityViewController", bundle: nil)
+        
+        navigationController?.pushViewController(startActivityController, animated: true)
     }
 }

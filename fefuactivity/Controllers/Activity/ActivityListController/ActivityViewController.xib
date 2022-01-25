@@ -35,7 +35,7 @@
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             <state key="normal" title="Button"/>
                             <connections>
-                                <action selector="didExitEmptyState:" destination="-1" eventType="touchUpInside" id="tvG-ox-gVb"/>
+                                <action selector="didStartActivity:" destination="-1" eventType="touchUpInside" id="GG3-EB-o5t"/>
                             </connections>
                         </button>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="103" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qEE-BA-9o1">

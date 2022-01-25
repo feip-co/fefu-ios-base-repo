@@ -14,12 +14,12 @@
                 <outlet property="activityDurationLabel" destination="C8j-jX-UVe" id="RXe-30-uay"/>
                 <outlet property="activityTitleLabel" destination="hT8-KB-vaD" id="G6H-4h-l4O"/>
                 <outlet property="commentField" destination="6xQ-2m-cu5" id="y21-Ov-1FP"/>
+                <outlet property="dateLabel" destination="5bP-cg-lul" id="l3L-8o-gcc"/>
                 <outlet property="distanceLabel" destination="YF6-Dz-nqG" id="jAx-gT-AKW"/>
                 <outlet property="iconActivity" destination="vF1-Lj-Jrz" id="Pm7-r6-DXf"/>
                 <outlet property="secondTimeAgoLabel" destination="abt-Md-J1r" id="l9n-we-2Vh"/>
                 <outlet property="startButton" destination="bla-k6-94s" id="gRB-gC-ae0"/>
                 <outlet property="startEndTimeLabel" destination="RW6-6e-rAS" id="c68-eq-w1C"/>
-                <outlet property="timeAgoLabel" destination="5bP-cg-lul" id="l3L-8o-gcc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -79,13 +79,16 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bla-k6-94s" customClass="ActivityFEFUButton" customModule="fefuactivity" customModuleProvider="target">
-                    <rect key="frame" x="32" y="655" width="350" height="50"/>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bla-k6-94s" customClass="ActivityFEFUButton" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="32" y="654" width="350" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="qUW-qc-crz"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="didStartTracking:" destination="-1" eventType="touchUpInside" id="eK3-by-4cf"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

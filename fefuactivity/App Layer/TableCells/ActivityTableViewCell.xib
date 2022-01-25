@@ -86,11 +86,11 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="activityTitleLabel" destination="fHY-AE-xbw" id="cEb-Pe-fhj"/>
+                <outlet property="dateLabel" destination="aUN-8d-1e3" id="JG9-aP-VaT"/>
                 <outlet property="designContentView" destination="wA9-R0-nmp" id="EWJ-Xw-yVY"/>
                 <outlet property="distanceLabel" destination="CqL-qs-oqu" id="2mi-ga-Reu"/>
                 <outlet property="durationLabel" destination="Np1-81-Sza" id="TVC-O6-3Cr"/>
                 <outlet property="iconView" destination="7kI-sW-lkE" id="cDo-kK-k3p"/>
-                <outlet property="timeAgoLabel" destination="aUN-8d-1e3" id="JG9-aP-VaT"/>
             </connections>
             <point key="canvasLocation" x="139" y="130"/>
         </tableViewCell>
