@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginController" customModule="fefuactivity" customModuleProvider="target">
+            <connections>
+                <outlet property="continueButton" destination="HIG-f3-Cqu" id="ypR-Io-eoh"/>
+                <outlet property="loginField" destination="6GY-T8-hBY" id="Oha-pQ-WJi"/>
+                <outlet property="passwordField" destination="mqx-yq-OFZ" id="f5K-OI-ZyJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Логин" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6GY-T8-hBY" customClass="FormTextField" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="16" y="16" width="382" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ONV-wn-ULV"/>
+                    </constraints>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mqx-yq-OFZ" customClass="FormTextField" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="16" y="82" width="382" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Ke4-kn-RnV"/>
+                    </constraints>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIG-f3-Cqu" customClass="PrimaryButton" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="32" y="172" width="350" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="DYR-en-nC8"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <connections>
+                        <action selector="didTapContinue:" destination="-1" eventType="touchUpInside" id="8mQ-Ta-5pk"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Riders" translatesAutoresizingMaskIntoConstraints="NO" id="qFX-na-n5q">
+                    <rect key="frame" x="0.0" y="247" width="414" height="403"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="LogoBW" translatesAutoresizingMaskIntoConstraints="NO" id="Y5S-ci-DVn">
+                    <rect key="frame" x="144" y="651" width="126" height="57"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mqx-yq-OFZ" secondAttribute="trailing" constant="16" id="DX7-1f-Ck0"/>
+                <constraint firstItem="6GY-T8-hBY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="Hlx-kN-sWh"/>
+                <constraint firstItem="Y5S-ci-DVn" firstAttribute="top" secondItem="qFX-na-n5q" secondAttribute="bottom" constant="1" id="Nrd-Bv-lmk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6GY-T8-hBY" secondAttribute="trailing" constant="16" id="R9d-uJ-jNZ"/>
+                <constraint firstItem="Y5S-ci-DVn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="144" id="SDK-aY-qux"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HIG-f3-Cqu" secondAttribute="trailing" constant="32" id="UIX-Om-jgT"/>
+                <constraint firstItem="qFX-na-n5q" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="UWA-6e-usQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Y5S-ci-DVn" secondAttribute="trailing" constant="144" id="bMq-KU-UOL"/>
+                <constraint firstItem="HIG-f3-Cqu" firstAttribute="top" secondItem="mqx-yq-OFZ" secondAttribute="bottom" constant="40" id="bjK-nZ-zx1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Y5S-ci-DVn" secondAttribute="bottom" constant="66" id="cyO-Id-HL8"/>
+                <constraint firstItem="qFX-na-n5q" firstAttribute="top" secondItem="HIG-f3-Cqu" secondAttribute="bottom" constant="25" id="mwN-E9-Y9S"/>
+                <constraint firstItem="mqx-yq-OFZ" firstAttribute="top" secondItem="6GY-T8-hBY" secondAttribute="bottom" constant="16" id="ojO-Ao-8jH"/>
+                <constraint firstItem="HIG-f3-Cqu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="orA-cS-vzM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qFX-na-n5q" secondAttribute="trailing" id="p8w-cH-Uvx"/>
+                <constraint firstItem="mqx-yq-OFZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="rAy-Ge-Qw0"/>
+                <constraint firstItem="6GY-T8-hBY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ra7-N6-eE8"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="139" y="80"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LogoBW" width="88" height="56"/>
+        <image name="Riders" width="343" height="303.5"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

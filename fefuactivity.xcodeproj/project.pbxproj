@@ -13,33 +13,33 @@
 		1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CA270A5CCE004A30CA /* Main.storyboard */; };
 		1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */; };
 		1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */; };
-		B401A780271D5D18003D9211 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A77E271D5D18003D9211 /* ActivityViewController.swift */; };
-		B401A781271D5D18003D9211 /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B401A77F271D5D18003D9211 /* ActivityViewController.xib */; };
-		B401A784271D5D27003D9211 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A782271D5D27003D9211 /* ProfileViewController.swift */; };
-		B401A785271D5D27003D9211 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B401A783271D5D27003D9211 /* ProfileViewController.xib */; };
-		B401A787271D6182003D9211 /* StartActivityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A786271D6182003D9211 /* StartActivityButton.swift */; };
-		B40A167C270DD936004E594A /* SecureFEFUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A167B270DD936004E594A /* SecureFEFUTextField.swift */; };
-		B40A1681270DF7D6004E594A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A167F270DF7D6004E594A /* SignUpViewController.swift */; };
-		B40A1682270DF7D6004E594A /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40A1680270DF7D6004E594A /* SignUpViewController.xib */; };
-		B433AEC1270ED759004A6CB1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433AEBF270ED759004A6CB1 /* SignInViewController.swift */; };
-		B433AEC2270ED759004A6CB1 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B433AEC0270ED759004A6CB1 /* SignInViewController.xib */; };
-		B43952EF271D6ED7002B8DD4 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43952ED271D6ED7002B8DD4 /* ActivityTableViewCell.swift */; };
-		B43952F0271D6ED7002B8DD4 /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43952EE271D6ED7002B8DD4 /* ActivityTableViewCell.xib */; };
-		B43952FA271D8406002B8DD4 /* ActivityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43952F8271D8406002B8DD4 /* ActivityDetailsViewController.swift */; };
-		B43952FB271D8406002B8DD4 /* ActivityDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43952F9271D8406002B8DD4 /* ActivityDetailsViewController.xib */; };
-		B43952FE271DBB58002B8DD4 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43952FC271DBB58002B8DD4 /* TabsViewController.swift */; };
-		B43952FF271DBB58002B8DD4 /* TabsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43952FD271DBB58002B8DD4 /* TabsViewController.xib */; };
-		B452D057270DB88800FA4262 /* SignFEFUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B452D056270DB88800FA4262 /* SignFEFUTextField.swift */; };
-		B45FCBFA273B87EA00C8226E /* ActivityTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45FCBF8273B87EA00C8226E /* ActivityTypeCollectionViewCell.swift */; };
-		B45FCBFB273B87EA00C8226E /* ActivityTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45FCBF9273B87EA00C8226E /* ActivityTypeCollectionViewCell.xib */; };
-		B489D0F1273D0F5E007D9516 /* PauseToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489D0F0273D0F5E007D9516 /* PauseToggleButton.swift */; };
-		B489D0F3273D100F007D9516 /* FinishActivityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489D0F2273D100F007D9516 /* FinishActivityButton.swift */; };
-		B489D0FC273D74A9007D9516 /* FEFUCoreDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489D0FB273D74A9007D9516 /* FEFUCoreDataContainer.swift */; };
-		B489D0FF273D754F007D9516 /* fefuactivity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B489D0FD273D754F007D9516 /* fefuactivity.xcdatamodeld */; };
-		B490BB98270ACED100F11E64 /* ActivityFEFUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490BB97270ACED100F11E64 /* ActivityFEFUButton.swift */; };
-		B4C630EE275A5BB700D4ABC4 /* CDActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C630ED275A5BB700D4ABC4 /* CDActivityController.swift */; };
-		B4DC15E8273A89DF00CB6BE3 /* StartActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC15E6273A89DF00CB6BE3 /* StartActivityViewController.swift */; };
-		B4DC15E9273A89DF00CB6BE3 /* StartActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DC15E7273A89DF00CB6BE3 /* StartActivityViewController.xib */; };
+		B4BEC0AE27675CBE006BBAAB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0AD27675CBE006BBAAB /* PrimaryButton.swift */; };
+		B4BEC0B1276761EE006BBAAB /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0AF276761EE006BBAAB /* RegistrationController.swift */; };
+		B4BEC0B2276761EE006BBAAB /* RegistrationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BEC0B0276761EE006BBAAB /* RegistrationController.xib */; };
+		B4BEC0B727676230006BBAAB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0B527676230006BBAAB /* LoginController.swift */; };
+		B4BEC0B827676230006BBAAB /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BEC0B627676230006BBAAB /* LoginController.xib */; };
+		B4BEC0BD27676798006BBAAB /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0BC27676798006BBAAB /* FormTextField.swift */; };
+		B4BEC0C0276773FD006BBAAB /* TabsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0BE276773FD006BBAAB /* TabsController.swift */; };
+		B4BEC0C1276773FD006BBAAB /* TabsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BEC0BF276773FD006BBAAB /* TabsController.xib */; };
+		B4BEC0C5276774AF006BBAAB /* ActivityListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0C3276774AF006BBAAB /* ActivityListController.swift */; };
+		B4BEC0C6276774AF006BBAAB /* ActivityListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BEC0C4276774AF006BBAAB /* ActivityListController.xib */; };
+		B4BEC0C9276774BF006BBAAB /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0C7276774BF006BBAAB /* ProfileController.swift */; };
+		B4BEC0CA276774BF006BBAAB /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BEC0C8276774BF006BBAAB /* ProfileController.xib */; };
+		B4BEC0CF27678CF4006BBAAB /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0CD27678CF4006BBAAB /* ActivityTableViewCell.swift */; };
+		B4BEC0D027678CF4006BBAAB /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BEC0CE27678CF4006BBAAB /* ActivityTableViewCell.xib */; };
+		B4BEC0D427679271006BBAAB /* ActivityDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0D227679271006BBAAB /* ActivityDetailsController.swift */; };
+		B4BEC0D527679271006BBAAB /* ActivityDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BEC0D327679271006BBAAB /* ActivityDetailsController.xib */; };
+		B4BEC0D927682DB8006BBAAB /* ActivityTrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEC0D727682DB8006BBAAB /* ActivityTrackingController.swift */; };
+		B4BEC0DA27682DB8006BBAAB /* ActivityTrackingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BEC0D827682DB8006BBAAB /* ActivityTrackingController.xib */; };
+		B4F1A0242768DFE2006D8521 /* PauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1A0232768DFE2006D8521 /* PauseButton.swift */; };
+		B4F1A0262768E191006D8521 /* FinishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1A0252768E191006D8521 /* FinishButton.swift */; };
+		B4F1A02A2768E254006D8521 /* TypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1A0282768E254006D8521 /* TypeCollectionViewCell.swift */; };
+		B4F1A02B2768E254006D8521 /* TypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F1A0292768E254006D8521 /* TypeCollectionViewCell.xib */; };
+		B4F1A0302768E882006D8521 /* CoreDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1A02F2768E882006D8521 /* CoreDataContainer.swift */; };
+		B4F1A0322768E8A9006D8521 /* CDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1A0312768E8A9006D8521 /* CDController.swift */; };
+		B4F1A0352768E8E9006D8521 /* fefuactivity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4F1A0332768E8E9006D8521 /* fefuactivity.xcdatamodeld */; };
+		B4F1A0382768F5B3006D8521 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1A0372768F5B3006D8521 /* Types.swift */; };
+		B4F1A03A2768F5F2006D8521 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1A0392768F5F2006D8521 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,33 +51,33 @@
 		1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE4E5D0270A5CD0004A30CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE4E5D2270A5CD0004A30CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B401A77E271D5D18003D9211 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
-		B401A77F271D5D18003D9211 /* ActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
-		B401A782271D5D27003D9211 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		B401A783271D5D27003D9211 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
-		B401A786271D6182003D9211 /* StartActivityButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartActivityButton.swift; sourceTree = "<group>"; };
-		B40A167B270DD936004E594A /* SecureFEFUTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFEFUTextField.swift; sourceTree = "<group>"; };
-		B40A167F270DF7D6004E594A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		B40A1680270DF7D6004E594A /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
-		B433AEBF270ED759004A6CB1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		B433AEC0270ED759004A6CB1 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
-		B43952ED271D6ED7002B8DD4 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
-		B43952EE271D6ED7002B8DD4 /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
-		B43952F8271D8406002B8DD4 /* ActivityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsViewController.swift; sourceTree = "<group>"; };
-		B43952F9271D8406002B8DD4 /* ActivityDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityDetailsViewController.xib; sourceTree = "<group>"; };
-		B43952FC271DBB58002B8DD4 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
-		B43952FD271DBB58002B8DD4 /* TabsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabsViewController.xib; sourceTree = "<group>"; };
-		B452D056270DB88800FA4262 /* SignFEFUTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignFEFUTextField.swift; sourceTree = "<group>"; };
-		B45FCBF8273B87EA00C8226E /* ActivityTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTypeCollectionViewCell.swift; sourceTree = "<group>"; };
-		B45FCBF9273B87EA00C8226E /* ActivityTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTypeCollectionViewCell.xib; sourceTree = "<group>"; };
-		B489D0F0273D0F5E007D9516 /* PauseToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseToggleButton.swift; sourceTree = "<group>"; };
-		B489D0F2273D100F007D9516 /* FinishActivityButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishActivityButton.swift; sourceTree = "<group>"; };
-		B489D0FB273D74A9007D9516 /* FEFUCoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FEFUCoreDataContainer.swift; sourceTree = "<group>"; };
-		B489D0FE273D754F007D9516 /* fefuactivity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fefuactivity.xcdatamodel; sourceTree = "<group>"; };
-		B490BB97270ACED100F11E64 /* ActivityFEFUButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFEFUButton.swift; sourceTree = "<group>"; };
-		B4C630ED275A5BB700D4ABC4 /* CDActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDActivityController.swift; sourceTree = "<group>"; };
-		B4DC15E6273A89DF00CB6BE3 /* StartActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartActivityViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		B4DC15E7273A89DF00CB6BE3 /* StartActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartActivityViewController.xib; sourceTree = "<group>"; };
+		B4BEC0AD27675CBE006BBAAB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B4BEC0AF276761EE006BBAAB /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		B4BEC0B0276761EE006BBAAB /* RegistrationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationController.xib; sourceTree = "<group>"; };
+		B4BEC0B527676230006BBAAB /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B4BEC0B627676230006BBAAB /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		B4BEC0BC27676798006BBAAB /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		B4BEC0BE276773FD006BBAAB /* TabsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsController.swift; sourceTree = "<group>"; };
+		B4BEC0BF276773FD006BBAAB /* TabsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabsController.xib; sourceTree = "<group>"; };
+		B4BEC0C3276774AF006BBAAB /* ActivityListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListController.swift; sourceTree = "<group>"; };
+		B4BEC0C4276774AF006BBAAB /* ActivityListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityListController.xib; sourceTree = "<group>"; };
+		B4BEC0C7276774BF006BBAAB /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		B4BEC0C8276774BF006BBAAB /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
+		B4BEC0CD27678CF4006BBAAB /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		B4BEC0CE27678CF4006BBAAB /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
+		B4BEC0D227679271006BBAAB /* ActivityDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsController.swift; sourceTree = "<group>"; };
+		B4BEC0D327679271006BBAAB /* ActivityDetailsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityDetailsController.xib; sourceTree = "<group>"; };
+		B4BEC0D727682DB8006BBAAB /* ActivityTrackingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTrackingController.swift; sourceTree = "<group>"; };
+		B4BEC0D827682DB8006BBAAB /* ActivityTrackingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTrackingController.xib; sourceTree = "<group>"; };
+		B4F1A0232768DFE2006D8521 /* PauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseButton.swift; sourceTree = "<group>"; };
+		B4F1A0252768E191006D8521 /* FinishButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishButton.swift; sourceTree = "<group>"; };
+		B4F1A0282768E254006D8521 /* TypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4F1A0292768E254006D8521 /* TypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		B4F1A02F2768E882006D8521 /* CoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContainer.swift; sourceTree = "<group>"; };
+		B4F1A0312768E8A9006D8521 /* CDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B4F1A0342768E8E9006D8521 /* fefuactivity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fefuactivity.xcdatamodel; sourceTree = "<group>"; };
+		B4F1A0372768F5B3006D8521 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		B4F1A0392768F5F2006D8521 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,178 +110,170 @@
 		1DE4E5C3270A5CCE004A30CA /* fefuactivity */ = {
 			isa = PBXGroup;
 			children = (
-				B4C630EC275A5B8E00D4ABC4 /* Service Layer */,
-				B4C630DA275A42B400D4ABC4 /* App Layer */,
-				B47D35BA271B13E10072FFB8 /* Controllers */,
+				B4F1A02D2768E861006D8521 /* Service Layer */,
+				B4BEC0A927675C6E006BBAAB /* App Layer */,
 				1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */,
-				1DE4E5CA270A5CCE004A30CA /* Main.storyboard */,
-				1DE4E5C8270A5CCE004A30CA /* ViewController.swift */,
 				1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */,
+				1DE4E5CA270A5CCE004A30CA /* Main.storyboard */,
 				1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */,
 				1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */,
 				1DE4E5D2270A5CD0004A30CA /* Info.plist */,
-				B489D0FD273D754F007D9516 /* fefuactivity.xcdatamodeld */,
+				B4F1A0332768E8E9006D8521 /* fefuactivity.xcdatamodeld */,
 			);
 			path = fefuactivity;
 			sourceTree = "<group>";
 		};
-		B42572412723A7B1007DEE33 /* ActivityListController */ = {
+		B4BEC0A927675C6E006BBAAB /* App Layer */ = {
 			isa = PBXGroup;
 			children = (
-				B401A77E271D5D18003D9211 /* ActivityViewController.swift */,
-				B401A77F271D5D18003D9211 /* ActivityViewController.xib */,
-			);
-			path = ActivityListController;
-			sourceTree = "<group>";
-		};
-		B42572422723A7C9007DEE33 /* ActivityDetailsController */ = {
-			isa = PBXGroup;
-			children = (
-				B43952F8271D8406002B8DD4 /* ActivityDetailsViewController.swift */,
-				B43952F9271D8406002B8DD4 /* ActivityDetailsViewController.xib */,
-			);
-			path = ActivityDetailsController;
-			sourceTree = "<group>";
-		};
-		B42572432723A7D8007DEE33 /* ProfileController */ = {
-			isa = PBXGroup;
-			children = (
-				B401A782271D5D27003D9211 /* ProfileViewController.swift */,
-				B401A783271D5D27003D9211 /* ProfileViewController.xib */,
-			);
-			path = ProfileController;
-			sourceTree = "<group>";
-		};
-		B42572442723A7E7007DEE33 /* TabsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B43952FC271DBB58002B8DD4 /* TabsViewController.swift */,
-				B43952FD271DBB58002B8DD4 /* TabsViewController.xib */,
-			);
-			path = TabsViewController;
-			sourceTree = "<group>";
-		};
-		B42572452723A7FF007DEE33 /* SignUp */ = {
-			isa = PBXGroup;
-			children = (
-				B40A1680270DF7D6004E594A /* SignUpViewController.xib */,
-				B40A167F270DF7D6004E594A /* SignUpViewController.swift */,
-			);
-			path = SignUp;
-			sourceTree = "<group>";
-		};
-		B42572462723A815007DEE33 /* SignIn */ = {
-			isa = PBXGroup;
-			children = (
-				B433AEBF270ED759004A6CB1 /* SignInViewController.swift */,
-				B433AEC0270ED759004A6CB1 /* SignInViewController.xib */,
-			);
-			path = SignIn;
-			sourceTree = "<group>";
-		};
-		B42572472723A822007DEE33 /* TextFields */ = {
-			isa = PBXGroup;
-			children = (
-				B452D056270DB88800FA4262 /* SignFEFUTextField.swift */,
-				B40A167B270DD936004E594A /* SecureFEFUTextField.swift */,
-			);
-			path = TextFields;
-			sourceTree = "<group>";
-		};
-		B42572482723A82C007DEE33 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				B490BB97270ACED100F11E64 /* ActivityFEFUButton.swift */,
-				B401A786271D6182003D9211 /* StartActivityButton.swift */,
-				B489D0F0273D0F5E007D9516 /* PauseToggleButton.swift */,
-				B489D0F2273D100F007D9516 /* FinishActivityButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		B42572492723A839007DEE33 /* TableCells */ = {
-			isa = PBXGroup;
-			children = (
-				B43952ED271D6ED7002B8DD4 /* ActivityTableViewCell.swift */,
-				B43952EE271D6ED7002B8DD4 /* ActivityTableViewCell.xib */,
-			);
-			path = TableCells;
-			sourceTree = "<group>";
-		};
-		B43952F1271D82F1002B8DD4 /* Activity */ = {
-			isa = PBXGroup;
-			children = (
-				B4DC15EA273A8F3A00CB6BE3 /* StartActivityController */,
-				B42572442723A7E7007DEE33 /* TabsViewController */,
-				B42572412723A7B1007DEE33 /* ActivityListController */,
-				B42572432723A7D8007DEE33 /* ProfileController */,
-				B42572422723A7C9007DEE33 /* ActivityDetailsController */,
-			);
-			path = Activity;
-			sourceTree = "<group>";
-		};
-		B45FCBF5273B81A400C8226E /* CollectionCells */ = {
-			isa = PBXGroup;
-			children = (
-				B45FCBF8273B87EA00C8226E /* ActivityTypeCollectionViewCell.swift */,
-				B45FCBF9273B87EA00C8226E /* ActivityTypeCollectionViewCell.xib */,
-			);
-			path = CollectionCells;
-			sourceTree = "<group>";
-		};
-		B47D35BA271B13E10072FFB8 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				B42572452723A7FF007DEE33 /* SignUp */,
-				B42572462723A815007DEE33 /* SignIn */,
-				B43952F1271D82F1002B8DD4 /* Activity */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		B489D0FA273D747C007D9516 /* CoreData+Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				B4C630ED275A5BB700D4ABC4 /* CDActivityController.swift */,
-				B489D0FB273D74A9007D9516 /* FEFUCoreDataContainer.swift */,
-			);
-			path = "CoreData+Helpers";
-			sourceTree = "<group>";
-		};
-		B4C630DA275A42B400D4ABC4 /* App Layer */ = {
-			isa = PBXGroup;
-			children = (
-				B4C630EB275A5B7000D4ABC4 /* New Group */,
-				B42572472723A822007DEE33 /* TextFields */,
-				B42572482723A82C007DEE33 /* Buttons */,
-				B42572492723A839007DEE33 /* TableCells */,
-				B45FCBF5273B81A400C8226E /* CollectionCells */,
+				B4F1A0272768E220006D8521 /* CollectionViewCells */,
+				B4BEC0D127678D00006BBAAB /* TableViewCells */,
+				B4BEC0BB2767677A006BBAAB /* TextFields */,
+				B4BEC0AB27675C8F006BBAAB /* Buttons */,
+				B4BEC0AA27675C7C006BBAAB /* Controllers */,
 			);
 			path = "App Layer";
 			sourceTree = "<group>";
 		};
-		B4C630EB275A5B7000D4ABC4 /* New Group */ = {
+		B4BEC0AA27675C7C006BBAAB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1DE4E5C8270A5CCE004A30CA /* ViewController.swift */,
+				B4BEC0B4276761F8006BBAAB /* Registration */,
+				B4BEC0B927676251006BBAAB /* Login */,
+				B4BEC0C227677402006BBAAB /* Tabs */,
+				B4BEC0CB276774C2006BBAAB /* ActivityList */,
+				B4BEC0CC276774CB006BBAAB /* Profile */,
+				B4BEC0D627679275006BBAAB /* ActivityDetails */,
+				B4BEC0DB276838DF006BBAAB /* ActivityTracking */,
 			);
-			path = "New Group";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		B4C630EC275A5B8E00D4ABC4 /* Service Layer */ = {
+		B4BEC0AB27675C8F006BBAAB /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				B489D0FA273D747C007D9516 /* CoreData+Helpers */,
+				B4BEC0AD27675CBE006BBAAB /* PrimaryButton.swift */,
+				B4F1A0232768DFE2006D8521 /* PauseButton.swift */,
+				B4F1A0252768E191006D8521 /* FinishButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B4BEC0B4276761F8006BBAAB /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0AF276761EE006BBAAB /* RegistrationController.swift */,
+				B4BEC0B0276761EE006BBAAB /* RegistrationController.xib */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		B4BEC0B927676251006BBAAB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0B527676230006BBAAB /* LoginController.swift */,
+				B4BEC0B627676230006BBAAB /* LoginController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B4BEC0BB2767677A006BBAAB /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0BC27676798006BBAAB /* FormTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		B4BEC0C227677402006BBAAB /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0BE276773FD006BBAAB /* TabsController.swift */,
+				B4BEC0BF276773FD006BBAAB /* TabsController.xib */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		B4BEC0CB276774C2006BBAAB /* ActivityList */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0C3276774AF006BBAAB /* ActivityListController.swift */,
+				B4BEC0C4276774AF006BBAAB /* ActivityListController.xib */,
+			);
+			path = ActivityList;
+			sourceTree = "<group>";
+		};
+		B4BEC0CC276774CB006BBAAB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0C7276774BF006BBAAB /* ProfileController.swift */,
+				B4BEC0C8276774BF006BBAAB /* ProfileController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B4BEC0D127678D00006BBAAB /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0CD27678CF4006BBAAB /* ActivityTableViewCell.swift */,
+				B4BEC0CE27678CF4006BBAAB /* ActivityTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		B4BEC0D627679275006BBAAB /* ActivityDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0D227679271006BBAAB /* ActivityDetailsController.swift */,
+				B4BEC0D327679271006BBAAB /* ActivityDetailsController.xib */,
+			);
+			path = ActivityDetails;
+			sourceTree = "<group>";
+		};
+		B4BEC0DB276838DF006BBAAB /* ActivityTracking */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC0D727682DB8006BBAAB /* ActivityTrackingController.swift */,
+				B4BEC0D827682DB8006BBAAB /* ActivityTrackingController.xib */,
+			);
+			path = ActivityTracking;
+			sourceTree = "<group>";
+		};
+		B4F1A0272768E220006D8521 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B4F1A0282768E254006D8521 /* TypeCollectionViewCell.swift */,
+				B4F1A0292768E254006D8521 /* TypeCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		B4F1A02D2768E861006D8521 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B4F1A0362768F5A2006D8521 /* ApiHelpers */,
+				B4F1A02E2768E86B006D8521 /* CoreData */,
 			);
 			path = "Service Layer";
 			sourceTree = "<group>";
 		};
-		B4DC15EA273A8F3A00CB6BE3 /* StartActivityController */ = {
+		B4F1A02E2768E86B006D8521 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				B4DC15E6273A89DF00CB6BE3 /* StartActivityViewController.swift */,
-				B4DC15E7273A89DF00CB6BE3 /* StartActivityViewController.xib */,
+				B4F1A02F2768E882006D8521 /* CoreDataContainer.swift */,
+				B4F1A0312768E8A9006D8521 /* CDController.swift */,
 			);
-			path = StartActivityController;
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B4F1A0362768F5A2006D8521 /* ApiHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B4F1A0372768F5B3006D8521 /* Types.swift */,
+				B4F1A0392768F5F2006D8521 /* AuthService.swift */,
+			);
+			path = ApiHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,18 +333,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BEC0B2276761EE006BBAAB /* RegistrationController.xib in Resources */,
+				B4BEC0D027678CF4006BBAAB /* ActivityTableViewCell.xib in Resources */,
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
-				B43952F0271D6ED7002B8DD4 /* ActivityTableViewCell.xib in Resources */,
+				B4BEC0DA27682DB8006BBAAB /* ActivityTrackingController.xib in Resources */,
+				B4F1A02B2768E254006D8521 /* TypeCollectionViewCell.xib in Resources */,
+				B4BEC0C6276774AF006BBAAB /* ActivityListController.xib in Resources */,
+				B4BEC0CA276774BF006BBAAB /* ProfileController.xib in Resources */,
+				B4BEC0D527679271006BBAAB /* ActivityDetailsController.xib in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
-				B401A785271D5D27003D9211 /* ProfileViewController.xib in Resources */,
+				B4BEC0B827676230006BBAAB /* LoginController.xib in Resources */,
 				1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */,
-				B40A1682270DF7D6004E594A /* SignUpViewController.xib in Resources */,
-				B43952FF271DBB58002B8DD4 /* TabsViewController.xib in Resources */,
-				B401A781271D5D18003D9211 /* ActivityViewController.xib in Resources */,
-				B43952FB271D8406002B8DD4 /* ActivityDetailsViewController.xib in Resources */,
-				B45FCBFB273B87EA00C8226E /* ActivityTypeCollectionViewCell.xib in Resources */,
-				B4DC15E9273A89DF00CB6BE3 /* StartActivityViewController.xib in Resources */,
-				B433AEC2270ED759004A6CB1 /* SignInViewController.xib in Resources */,
+				B4BEC0C1276773FD006BBAAB /* TabsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,27 +355,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40A167C270DD936004E594A /* SecureFEFUTextField.swift in Sources */,
+				B4F1A0302768E882006D8521 /* CoreDataContainer.swift in Sources */,
+				B4F1A02A2768E254006D8521 /* TypeCollectionViewCell.swift in Sources */,
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
-				B40A1681270DF7D6004E594A /* SignUpViewController.swift in Sources */,
-				B489D0FC273D74A9007D9516 /* FEFUCoreDataContainer.swift in Sources */,
-				B43952FA271D8406002B8DD4 /* ActivityDetailsViewController.swift in Sources */,
-				B401A787271D6182003D9211 /* StartActivityButton.swift in Sources */,
-				B401A780271D5D18003D9211 /* ActivityViewController.swift in Sources */,
-				B452D057270DB88800FA4262 /* SignFEFUTextField.swift in Sources */,
-				B489D0F3273D100F007D9516 /* FinishActivityButton.swift in Sources */,
+				B4F1A0382768F5B3006D8521 /* Types.swift in Sources */,
+				B4BEC0B727676230006BBAAB /* LoginController.swift in Sources */,
+				B4F1A0262768E191006D8521 /* FinishButton.swift in Sources */,
+				B4F1A03A2768F5F2006D8521 /* AuthService.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
-				B43952FE271DBB58002B8DD4 /* TabsViewController.swift in Sources */,
-				B4DC15E8273A89DF00CB6BE3 /* StartActivityViewController.swift in Sources */,
-				B401A784271D5D27003D9211 /* ProfileViewController.swift in Sources */,
-				B433AEC1270ED759004A6CB1 /* SignInViewController.swift in Sources */,
-				B489D0F1273D0F5E007D9516 /* PauseToggleButton.swift in Sources */,
-				B490BB98270ACED100F11E64 /* ActivityFEFUButton.swift in Sources */,
-				B489D0FF273D754F007D9516 /* fefuactivity.xcdatamodeld in Sources */,
-				B45FCBFA273B87EA00C8226E /* ActivityTypeCollectionViewCell.swift in Sources */,
+				B4F1A0322768E8A9006D8521 /* CDController.swift in Sources */,
+				B4BEC0C5276774AF006BBAAB /* ActivityListController.swift in Sources */,
+				B4BEC0CF27678CF4006BBAAB /* ActivityTableViewCell.swift in Sources */,
+				B4BEC0BD27676798006BBAAB /* FormTextField.swift in Sources */,
+				B4F1A0242768DFE2006D8521 /* PauseButton.swift in Sources */,
+				B4BEC0C9276774BF006BBAAB /* ProfileController.swift in Sources */,
+				B4BEC0AE27675CBE006BBAAB /* PrimaryButton.swift in Sources */,
+				B4F1A0352768E8E9006D8521 /* fefuactivity.xcdatamodeld in Sources */,
+				B4BEC0C0276773FD006BBAAB /* TabsController.swift in Sources */,
+				B4BEC0D927682DB8006BBAAB /* ActivityTrackingController.swift in Sources */,
+				B4BEC0D427679271006BBAAB /* ActivityDetailsController.swift in Sources */,
+				B4BEC0B1276761EE006BBAAB /* RegistrationController.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
-				B43952EF271D6ED7002B8DD4 /* ActivityTableViewCell.swift in Sources */,
-				B4C630EE275A5BB700D4ABC4 /* CDActivityController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,14 +523,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7MH4VYPRKR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = fefuactivity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.egorblinov.fefuactivity;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.fefu.crowly-ing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -551,14 +543,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7MH4VYPRKR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = fefuactivity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.egorblinov.fefuactivity;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.fefu.crowly-ing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -589,12 +581,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B489D0FD273D754F007D9516 /* fefuactivity.xcdatamodeld */ = {
+		B4F1A0332768E8E9006D8521 /* fefuactivity.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B489D0FE273D754F007D9516 /* fefuactivity.xcdatamodel */,
+				B4F1A0342768E8E9006D8521 /* fefuactivity.xcdatamodel */,
 			);
-			currentVersion = B489D0FE273D754F007D9516 /* fefuactivity.xcdatamodel */;
+			currentVersion = B4F1A0342768E8E9006D8521 /* fefuactivity.xcdatamodel */;
 			path = fefuactivity.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationController" customModule="fefuactivity" customModuleProvider="target">
+            <connections>
+                <outlet property="continueButton" destination="cdC-kc-wo3" id="Iig-Dv-Prb"/>
+                <outlet property="loginField" destination="pgP-iw-9gE" id="kEK-hB-qgl"/>
+                <outlet property="nameField" destination="N8l-gS-bcM" id="DmN-HB-AOO"/>
+                <outlet property="passwordConfirmationField" destination="d8D-RI-e1J" id="fD7-5B-MB8"/>
+                <outlet property="passwordField" destination="dWB-Um-RUQ" id="QY5-Ao-1Mf"/>
+                <outlet property="selectGender" destination="3r5-xe-P8A" id="Z8H-gd-0qd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="252" image="LogoBW" translatesAutoresizingMaskIntoConstraints="NO" id="Jo7-XQ-WAw">
+                    <rect key="frame" x="144" y="651" width="126" height="57"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agq-B1-j0D">
+                    <rect key="frame" x="16" y="439" width="382" height="164"/>
+                    <string key="text">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Логин" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pgP-iw-9gE" customClass="FormTextField" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="16" y="16" width="382" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="rKI-cT-rVQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Имя или никнейм" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N8l-gS-bcM" customClass="FormTextField" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="16" y="82" width="382" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="cjB-FK-AC9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dWB-Um-RUQ" customClass="FormTextField" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="16" y="148" width="382" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="M4N-7J-Zre"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Повторите пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d8D-RI-e1J" customClass="FormTextField" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="16" y="214" width="382" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="mY5-o9-2qB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Выберите" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3r5-xe-P8A">
+                    <rect key="frame" x="16" y="280" width="382" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="yjD-S9-5f5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdC-kc-wo3" customClass="PrimaryButton" customModule="fefuactivity" customModuleProvider="target">
+                    <rect key="frame" x="32" y="365" width="350" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="I8j-aM-bwD"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <connections>
+                        <action selector="didTapContinue:" destination="-1" eventType="touchUpInside" id="etC-MU-2AP"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пол" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUM-GO-Kd0">
+                    <rect key="frame" x="32" y="295" width="32" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="cdC-kc-wo3" firstAttribute="top" secondItem="3r5-xe-P8A" secondAttribute="bottom" constant="35" id="7eW-DS-hwf"/>
+                <constraint firstItem="3r5-xe-P8A" firstAttribute="top" secondItem="d8D-RI-e1J" secondAttribute="bottom" constant="16" id="ALl-GR-HZF"/>
+                <constraint firstItem="dWB-Um-RUQ" firstAttribute="top" secondItem="N8l-gS-bcM" secondAttribute="bottom" constant="16" id="AvF-W8-VCh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Jo7-XQ-WAw" secondAttribute="bottom" constant="66" id="BhZ-Qg-DkU"/>
+                <constraint firstItem="tUM-GO-Kd0" firstAttribute="centerY" secondItem="3r5-xe-P8A" secondAttribute="centerY" id="Ije-Tj-Tla"/>
+                <constraint firstItem="3r5-xe-P8A" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ItN-5N-ddz"/>
+                <constraint firstItem="dWB-Um-RUQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="LHu-0X-9mG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="N8l-gS-bcM" secondAttribute="trailing" constant="16" id="TWB-7H-evf"/>
+                <constraint firstItem="d8D-RI-e1J" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Ty8-9b-r4e"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dWB-Um-RUQ" secondAttribute="trailing" constant="16" id="WwU-sn-goG"/>
+                <constraint firstItem="tUM-GO-Kd0" firstAttribute="top" secondItem="d8D-RI-e1J" secondAttribute="bottom" constant="31" id="ZO5-nF-atv"/>
+                <constraint firstItem="Jo7-XQ-WAw" firstAttribute="top" secondItem="Agq-B1-j0D" secondAttribute="bottom" constant="48" id="Zud-1u-SU3"/>
+                <constraint firstItem="Jo7-XQ-WAw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="144" id="bNk-PT-j0d"/>
+                <constraint firstItem="N8l-gS-bcM" firstAttribute="top" secondItem="pgP-iw-9gE" secondAttribute="bottom" constant="16" id="bcq-Ug-n2I"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3r5-xe-P8A" secondAttribute="trailing" constant="16" id="cVR-8q-ZSp"/>
+                <constraint firstItem="pgP-iw-9gE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ccp-rG-Wyg"/>
+                <constraint firstItem="pgP-iw-9gE" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="eFB-eg-LaJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Agq-B1-j0D" secondAttribute="trailing" constant="16" id="hPK-af-sVI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Jo7-XQ-WAw" secondAttribute="trailing" constant="144" id="ikh-dd-B49"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="d8D-RI-e1J" secondAttribute="trailing" constant="16" id="jBP-Pl-oNw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cdC-kc-wo3" secondAttribute="trailing" constant="32" id="jgz-bs-ReR"/>
+                <constraint firstItem="tUM-GO-Kd0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="kQ5-CM-hXf"/>
+                <constraint firstItem="Agq-B1-j0D" firstAttribute="top" secondItem="cdC-kc-wo3" secondAttribute="bottom" constant="24" id="lse-ix-MOp"/>
+                <constraint firstItem="N8l-gS-bcM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="mDh-Em-evU"/>
+                <constraint firstItem="Agq-B1-j0D" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="n8z-P2-NuZ"/>
+                <constraint firstItem="d8D-RI-e1J" firstAttribute="top" secondItem="dWB-Um-RUQ" secondAttribute="bottom" constant="16" id="pfB-qt-S9o"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pgP-iw-9gE" secondAttribute="trailing" constant="16" id="u3A-nz-b7V"/>
+                <constraint firstItem="cdC-kc-wo3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="yXj-t8-yRq"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="139" y="115"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LogoBW" width="88" height="56"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
