@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDActivity" representedClassName=".CDActivity" syncable="YES">
+        <attribute name="distance" attributeType="String"/>
+        <attribute name="duration" attributeType="String"/>
+        <attribute name="endDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="type" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CDActivity" positionX="-54" positionY="-9" width="128" height="104"/>
+    </elements>
+</model>
